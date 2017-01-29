@@ -1,0 +1,2518 @@
+fileFormatVersion: 2
+guid: 789bae34a156c4b438f0f9635cba7b58
+timeCreated: 1485718488
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1.50C4MA
+    100002: Arm - Left001
+    100004: Arm - Right001
+    100006: Arm 2 - Left001
+    100008: Arm 2 - Right001
+    100010: Base - Bottom
+    100012: Base - Top
+    100014: Base-Bottom
+    100016: Base-Bottom001
+    100018: Base-Bottom002
+    100020: Base-Top
+    100022: Base-Top001
+    100024: Base-Top002
+    100026: Base001
+    100028: bigroller004
+    100030: bigroller005
+    100032: bigroller006
+    100034: bigroller007
+    100036: Bolts
+    100038: Bolts 1
+    100040: Bolts001
+    100042: Bolts002
+    100044: Bottle002
+    100046: Bottle003
+    100048: BottleOG001
+    100050: BottleOG002
+    100052: BottleOG003
+    100054: BottleOG004
+    100056: BottleOG005
+    100058: BottleOG006
+    100060: BottleOG007
+    100062: BottleOG008
+    100064: BottleStation4\
+    100066: BottleStation4\001
+    100068: BottleTrans2
+    100070: BottleTransitionOne
+    100072: BottleWaterFill
+    100074: Box001
+    100076: Box001 1
+    100078: Box001 2
+    100080: Box002
+    100082: Box002 1
+    100084: Box003
+    100086: Box003 1
+    100088: Box004
+    100090: Box004 1
+    100092: Box005
+    100094: Box005 1
+    100096: Box006
+    100098: Box006 1
+    100100: Box007
+    100102: Box008
+    100104: Box009
+    100106: Box010
+    100108: Box011
+    100110: Box014
+    100112: Box015
+    100114: Box020
+    100116: Box023
+    100118: Box034
+    100120: Box035
+    100122: Box054
+    100124: Box056
+    100126: Box057
+    100128: Box058
+    100130: Box059
+    100132: Box060
+    100134: Box061
+    100136: Box062
+    100138: Box063
+    100140: Box064
+    100142: Box065
+    100144: Box066
+    100146: Box067
+    100148: Box068
+    100150: Box069
+    100152: Box070
+    100154: Box071
+    100156: Box072p
+    100158: Caps - Bottom001
+    100160: Caps - Top001
+    100162: cell_002
+    100164: cell_002.Target
+    100166: cell_003
+    100168: cell_003.Target
+    100170: cell_004
+    100172: cell_004.Target
+    100174: cell_005
+    100176: cell_005.Target
+    100178: cell_006
+    100180: cell_006.Target
+    100182: cell_007
+    100184: cell_007.Target
+    100186: cell_008
+    100188: cell_008.Target
+    100190: cell_1
+    100192: cell_1.Target
+    100194: Center - Cylinder
+    100196: CenterSide
+    100198: CenterSide001
+    100200: CenterSide002
+    100202: CenterSide003
+    100204: ChamferBox001
+    100206: ChamferBox001 1
+    100208: ChamferBox002
+    100210: ChamferBox003
+    100212: ChamferBox004
+    100214: ChamferBox005
+    100216: ChamferBox006
+    100218: ChamferBox007
+    100220: ChamferBox008
+    100222: Constraint1
+    100224: Constraint2
+    100226: Constraint3
+    100228: conveyorplatform003
+    100230: conveyorplatform004
+    100232: conveyorplatform005
+    100234: conveyorplatform007
+    100236: conveyorplatform008
+    100238: conveyorplatform009
+    100240: conveyorplatform010
+    100242: conveyorplatform011
+    100244: conveyorplatform012
+    100246: conveyorplatform013
+    100248: conveyorplatform014
+    100250: conveyorplatform016
+    100252: conveyorplatform017
+    100254: conveyorplatform018
+    100256: conveyorplatform019
+    100258: conveyorplatform020
+    100260: conveyorsides
+    100262: conveyorsides002
+    100264: conveyorsides003
+    100266: Crusher001
+    100268: Crusher002
+    100270: Cylinder001
+    100272: Cylinder002
+    100274: Cylinder003
+    100276: Cylinder004
+    100278: Cylinder005
+    100280: Cylinder007
+    100282: Cylinder008
+    100284: Cylinder009
+    100286: Cylinder010
+    100288: Cylinder012
+    100290: Cylinder013
+    100292: Cylinder014
+    100294: Cylinder015
+    100296: Cylinder016
+    100298: Cylinder017
+    100300: Cylinder018
+    100302: Cylinder019
+    100304: Cylinder020
+    100306: Cylinder021
+    100308: Cylinder022
+    100310: Cylinder023
+    100312: Cylinder024
+    100314: Cylinder025
+    100316: Cylinder026
+    100318: Cylinder027
+    100320: Cylinder028
+    100322: Cylinder029
+    100324: Cylinder030
+    100326: Cylinder031
+    100328: Cylinder032
+    100330: Cylinder033
+    100332: Cylinder034
+    100334: Cylinder035
+    100336: Cylinder036
+    100338: Cylinder037
+    100340: Cylinder038
+    100342: Cylinder039
+    100344: Cylinder040
+    100346: Cylinder041
+    100348: Cylinder042
+    100350: Cylinder043
+    100352: Cylinder044
+    100354: Cylinder045
+    100356: Cylinder046
+    100358: Cylinder049
+    100360: Cylinder050
+    100362: Cylinder051
+    100364: Cylinder052
+    100366: Cylinder053
+    100368: Cylinder054
+    100370: Cylinder055
+    100372: Cylinder056
+    100374: Cylinder057
+    100376: Cylinder058
+    100378: Cylinder059
+    100380: Cylinder060
+    100382: Cylinder061
+    100384: CylinderCenter
+    100386: CylinderCenter001
+    100388: CylinderCenter003
+    100390: CylinderCenter004
+    100392: Floor
+    100394: Gauge
+    100396: Gauge001
+    100398: Gripper
+    100400: Gripper001
+    100402: Gripper007
+    100404: Gripper008
+    100406: Gripper009
+    100408: Gripper010
+    100410: Gripper011
+    100412: Gripper012
+    100414: Gripper013
+    100416: GripperArmL
+    100418: GripperArmL001
+    100420: GripperArmL002
+    100422: GripperArmL007
+    100424: GripperArmL009
+    100426: GripperArmL010
+    100428: GripperArmL011
+    100430: GripperArmL012
+    100432: GripperArmL013
+    100434: GripperArmL014
+    100436: GripperArmL015
+    100438: GripperArmL016
+    100440: GripperArmR
+    100442: GripperArmR001
+    100444: GripperArmR002
+    100446: GripperArmR007
+    100448: GripperArmR009
+    100450: GripperArmR010
+    100452: GripperArmR011
+    100454: GripperArmR012
+    100456: GripperArmR013
+    100458: GripperArmR014
+    100460: GripperArmR015
+    100462: GripperArmR016
+    100464: GripperOG
+    100466: GripperTable
+    100468: GripperTable001
+    100470: GripperTable007
+    100472: GripperTable008
+    100474: GripperTable009
+    100476: GripperTable010
+    100478: GripperTable011
+    100480: GripperTable012
+    100482: Group001
+    100484: Group002
+    100486: Group008
+    100488: Group010
+    100490: Group012
+    100492: Group013
+    100494: Group014
+    100496: Line001
+    100498: Line002
+    100500: Line003
+    100502: Line004
+    100504: loopedbelt001
+    100506: loopedbelt002
+    100508: loopedbelt003
+    100510: Object
+    100512: Object001
+    100514: Object002
+    100516: Object012
+    100518: Object017
+    100520: Object019
+    100522: Object021
+    100524: Object022
+    100526: Object023
+    100528: Object024
+    100530: Object025
+    100532: Object027
+    100534: OP-OSPP001
+    100536: OP-OSPP002
+    100538: OP-OSPP004
+    100540: OP-OSPP005
+    100542: osppholder
+    100544: osppholder001
+    100546: P033
+    100548: P2M2
+    100550: P2M2_MeshPart0
+    100552: P2M2_MeshPart1
+    100554: P2M2_MeshPart2
+    100556: P32
+    100558: P5GB001
+    100560: P5RS
+    100562: P5T
+    100564: P5T001
+    100566: P5T002
+    100568: P5T003
+    100570: P5T004
+    100572: P5T005
+    100574: P5T006
+    100576: P5TCylinders
+    100578: P5TCylinders001
+    100580: P5TCylinders002
+    100582: P5TCylinders003
+    100584: P5TCylinders004
+    100586: P5TCylinders005
+    100588: P8S
+    100590: P8S001
+    100592: P8S002
+    100594: Part2Joined
+    100596: PathConstraintLabelToDump
+    100598: PerspectiveCamera
+    100600: PerspectiveCamera.Target
+    100602: PhysCamera001
+    100604: PhysCamera001.Target
+    100606: PhysCamera002
+    100608: PhysCamera002.Target
+    100610: PhysCamera003.Target
+    100612: Piston
+    100614: Piston 1
+    100616: Piston001
+    100618: Piston001 1
+    100620: Piston002
+    100622: Piston003
+    100624: Piston007
+    100626: Piston009
+    100628: Piston016
+    100630: Piston023
+    100632: Piston024
+    100634: Piston025
+    100636: Piston026
+    100638: PistonCylinder001
+    100640: PistonCylinder007
+    100642: PistonCylinder008
+    100644: PlatformGraspers
+    100646: PO-OSP001
+    100648: PO-OSP002
+    100650: //RootNode
+    100652: Retopo nut
+    100654: Retopo nut001
+    100656: Retopo_P5RS
+    100658: Retopo_Rod
+    100660: Retopo_Rod001
+    100662: RodlessCylinder
+    100664: Shape002
+    100666: Shape003
+    100668: Shape004
+    100670: Shape005
+    100672: Sphere001
+    100674: Sphere002
+    100676: Spinner
+    100678: Spinner001
+    100680: Spinner006
+    100682: Spinner009
+    100684: Spinner010
+    100686: Spinner011
+    100688: Spinner012
+    100690: Spinner013
+    100692: Station4-h4ma
+    100694: Station4-h4ma001
+    100696: Station4-p5gb
+    100698: Station4-p5gb001
+    100700: Station4-p5rs
+    100702: Station4-p5rs001
+    100704: Station4-PistonCylinder005
+    100706: Station4-PistonCylinder006
+    100708: Station4-Table
+    100710: Station4-Table001
+    100712: TransitionerOG
+    100714: Tube001
+    100716: Tube002
+    100718: VRayLight001
+    100720: VRayLight002
+    100722: WaterBottleLabel
+    100724: WaterBottleLabel001
+    100726: WaterBottleLabel002
+    100728: WaterBottleLabel003
+    100730: WaterBottleLabel004
+    100732: WaterBottleLabel005
+    100734: WaterBottleLabel006
+    100736: Wedge - Left001
+    400000: 1.50C4MA
+    400002: Arm - Left001
+    400004: Arm - Right001
+    400006: Arm 2 - Left001
+    400008: Arm 2 - Right001
+    400010: Base - Bottom
+    400012: Base - Top
+    400014: Base-Bottom
+    400016: Base-Bottom001
+    400018: Base-Bottom002
+    400020: Base-Top
+    400022: Base-Top001
+    400024: Base-Top002
+    400026: Base001
+    400028: bigroller004
+    400030: bigroller005
+    400032: bigroller006
+    400034: bigroller007
+    400036: Bolts
+    400038: Bolts 1
+    400040: Bolts001
+    400042: Bolts002
+    400044: Bottle002
+    400046: Bottle003
+    400048: BottleOG001
+    400050: BottleOG002
+    400052: BottleOG003
+    400054: BottleOG004
+    400056: BottleOG005
+    400058: BottleOG006
+    400060: BottleOG007
+    400062: BottleOG008
+    400064: BottleStation4\
+    400066: BottleStation4\001
+    400068: BottleTrans2
+    400070: BottleTransitionOne
+    400072: BottleWaterFill
+    400074: Box001
+    400076: Box001 1
+    400078: Box001 2
+    400080: Box002
+    400082: Box002 1
+    400084: Box003
+    400086: Box003 1
+    400088: Box004
+    400090: Box004 1
+    400092: Box005
+    400094: Box005 1
+    400096: Box006
+    400098: Box006 1
+    400100: Box007
+    400102: Box008
+    400104: Box009
+    400106: Box010
+    400108: Box011
+    400110: Box014
+    400112: Box015
+    400114: Box020
+    400116: Box023
+    400118: Box034
+    400120: Box035
+    400122: Box054
+    400124: Box056
+    400126: Box057
+    400128: Box058
+    400130: Box059
+    400132: Box060
+    400134: Box061
+    400136: Box062
+    400138: Box063
+    400140: Box064
+    400142: Box065
+    400144: Box066
+    400146: Box067
+    400148: Box068
+    400150: Box069
+    400152: Box070
+    400154: Box071
+    400156: Box072p
+    400158: Caps - Bottom001
+    400160: Caps - Top001
+    400162: cell_002
+    400164: cell_002.Target
+    400166: cell_003
+    400168: cell_003.Target
+    400170: cell_004
+    400172: cell_004.Target
+    400174: cell_005
+    400176: cell_005.Target
+    400178: cell_006
+    400180: cell_006.Target
+    400182: cell_007
+    400184: cell_007.Target
+    400186: cell_008
+    400188: cell_008.Target
+    400190: cell_1
+    400192: cell_1.Target
+    400194: Center - Cylinder
+    400196: CenterSide
+    400198: CenterSide001
+    400200: CenterSide002
+    400202: CenterSide003
+    400204: ChamferBox001
+    400206: ChamferBox001 1
+    400208: ChamferBox002
+    400210: ChamferBox003
+    400212: ChamferBox004
+    400214: ChamferBox005
+    400216: ChamferBox006
+    400218: ChamferBox007
+    400220: ChamferBox008
+    400222: Constraint1
+    400224: Constraint2
+    400226: Constraint3
+    400228: conveyorplatform003
+    400230: conveyorplatform004
+    400232: conveyorplatform005
+    400234: conveyorplatform007
+    400236: conveyorplatform008
+    400238: conveyorplatform009
+    400240: conveyorplatform010
+    400242: conveyorplatform011
+    400244: conveyorplatform012
+    400246: conveyorplatform013
+    400248: conveyorplatform014
+    400250: conveyorplatform016
+    400252: conveyorplatform017
+    400254: conveyorplatform018
+    400256: conveyorplatform019
+    400258: conveyorplatform020
+    400260: conveyorsides
+    400262: conveyorsides002
+    400264: conveyorsides003
+    400266: Crusher001
+    400268: Crusher002
+    400270: Cylinder001
+    400272: Cylinder002
+    400274: Cylinder003
+    400276: Cylinder004
+    400278: Cylinder005
+    400280: Cylinder007
+    400282: Cylinder008
+    400284: Cylinder009
+    400286: Cylinder010
+    400288: Cylinder012
+    400290: Cylinder013
+    400292: Cylinder014
+    400294: Cylinder015
+    400296: Cylinder016
+    400298: Cylinder017
+    400300: Cylinder018
+    400302: Cylinder019
+    400304: Cylinder020
+    400306: Cylinder021
+    400308: Cylinder022
+    400310: Cylinder023
+    400312: Cylinder024
+    400314: Cylinder025
+    400316: Cylinder026
+    400318: Cylinder027
+    400320: Cylinder028
+    400322: Cylinder029
+    400324: Cylinder030
+    400326: Cylinder031
+    400328: Cylinder032
+    400330: Cylinder033
+    400332: Cylinder034
+    400334: Cylinder035
+    400336: Cylinder036
+    400338: Cylinder037
+    400340: Cylinder038
+    400342: Cylinder039
+    400344: Cylinder040
+    400346: Cylinder041
+    400348: Cylinder042
+    400350: Cylinder043
+    400352: Cylinder044
+    400354: Cylinder045
+    400356: Cylinder046
+    400358: Cylinder049
+    400360: Cylinder050
+    400362: Cylinder051
+    400364: Cylinder052
+    400366: Cylinder053
+    400368: Cylinder054
+    400370: Cylinder055
+    400372: Cylinder056
+    400374: Cylinder057
+    400376: Cylinder058
+    400378: Cylinder059
+    400380: Cylinder060
+    400382: Cylinder061
+    400384: CylinderCenter
+    400386: CylinderCenter001
+    400388: CylinderCenter003
+    400390: CylinderCenter004
+    400392: Floor
+    400394: Gauge
+    400396: Gauge001
+    400398: Gripper
+    400400: Gripper001
+    400402: Gripper007
+    400404: Gripper008
+    400406: Gripper009
+    400408: Gripper010
+    400410: Gripper011
+    400412: Gripper012
+    400414: Gripper013
+    400416: GripperArmL
+    400418: GripperArmL001
+    400420: GripperArmL002
+    400422: GripperArmL007
+    400424: GripperArmL009
+    400426: GripperArmL010
+    400428: GripperArmL011
+    400430: GripperArmL012
+    400432: GripperArmL013
+    400434: GripperArmL014
+    400436: GripperArmL015
+    400438: GripperArmL016
+    400440: GripperArmR
+    400442: GripperArmR001
+    400444: GripperArmR002
+    400446: GripperArmR007
+    400448: GripperArmR009
+    400450: GripperArmR010
+    400452: GripperArmR011
+    400454: GripperArmR012
+    400456: GripperArmR013
+    400458: GripperArmR014
+    400460: GripperArmR015
+    400462: GripperArmR016
+    400464: GripperOG
+    400466: GripperTable
+    400468: GripperTable001
+    400470: GripperTable007
+    400472: GripperTable008
+    400474: GripperTable009
+    400476: GripperTable010
+    400478: GripperTable011
+    400480: GripperTable012
+    400482: Group001
+    400484: Group002
+    400486: Group008
+    400488: Group010
+    400490: Group012
+    400492: Group013
+    400494: Group014
+    400496: Line001
+    400498: Line002
+    400500: Line003
+    400502: Line004
+    400504: loopedbelt001
+    400506: loopedbelt002
+    400508: loopedbelt003
+    400510: Object
+    400512: Object001
+    400514: Object002
+    400516: Object012
+    400518: Object017
+    400520: Object019
+    400522: Object021
+    400524: Object022
+    400526: Object023
+    400528: Object024
+    400530: Object025
+    400532: Object027
+    400534: OP-OSPP001
+    400536: OP-OSPP002
+    400538: OP-OSPP004
+    400540: OP-OSPP005
+    400542: osppholder
+    400544: osppholder001
+    400546: P033
+    400548: P2M2
+    400550: P2M2_MeshPart0
+    400552: P2M2_MeshPart1
+    400554: P2M2_MeshPart2
+    400556: P32
+    400558: P5GB001
+    400560: P5RS
+    400562: P5T
+    400564: P5T001
+    400566: P5T002
+    400568: P5T003
+    400570: P5T004
+    400572: P5T005
+    400574: P5T006
+    400576: P5TCylinders
+    400578: P5TCylinders001
+    400580: P5TCylinders002
+    400582: P5TCylinders003
+    400584: P5TCylinders004
+    400586: P5TCylinders005
+    400588: P8S
+    400590: P8S001
+    400592: P8S002
+    400594: Part2Joined
+    400596: PathConstraintLabelToDump
+    400598: PerspectiveCamera
+    400600: PerspectiveCamera.Target
+    400602: PhysCamera001
+    400604: PhysCamera001.Target
+    400606: PhysCamera002
+    400608: PhysCamera002.Target
+    400610: PhysCamera003.Target
+    400612: Piston
+    400614: Piston 1
+    400616: Piston001
+    400618: Piston001 1
+    400620: Piston002
+    400622: Piston003
+    400624: Piston007
+    400626: Piston009
+    400628: Piston016
+    400630: Piston023
+    400632: Piston024
+    400634: Piston025
+    400636: Piston026
+    400638: PistonCylinder001
+    400640: PistonCylinder007
+    400642: PistonCylinder008
+    400644: PlatformGraspers
+    400646: PO-OSP001
+    400648: PO-OSP002
+    400650: //RootNode
+    400652: Retopo nut
+    400654: Retopo nut001
+    400656: Retopo_P5RS
+    400658: Retopo_Rod
+    400660: Retopo_Rod001
+    400662: RodlessCylinder
+    400664: Shape002
+    400666: Shape003
+    400668: Shape004
+    400670: Shape005
+    400672: Sphere001
+    400674: Sphere002
+    400676: Spinner
+    400678: Spinner001
+    400680: Spinner006
+    400682: Spinner009
+    400684: Spinner010
+    400686: Spinner011
+    400688: Spinner012
+    400690: Spinner013
+    400692: Station4-h4ma
+    400694: Station4-h4ma001
+    400696: Station4-p5gb
+    400698: Station4-p5gb001
+    400700: Station4-p5rs
+    400702: Station4-p5rs001
+    400704: Station4-PistonCylinder005
+    400706: Station4-PistonCylinder006
+    400708: Station4-Table
+    400710: Station4-Table001
+    400712: TransitionerOG
+    400714: Tube001
+    400716: Tube002
+    400718: VRayLight001
+    400720: VRayLight002
+    400722: WaterBottleLabel
+    400724: WaterBottleLabel001
+    400726: WaterBottleLabel002
+    400728: WaterBottleLabel003
+    400730: WaterBottleLabel004
+    400732: WaterBottleLabel005
+    400734: WaterBottleLabel006
+    400736: Wedge - Left001
+    2300000: Arm - Left001
+    2300002: Arm - Right001
+    2300004: Arm 2 - Left001
+    2300006: Arm 2 - Right001
+    2300008: Base - Bottom
+    2300010: Base - Top
+    2300012: Base-Bottom
+    2300014: Base-Bottom001
+    2300016: Base-Bottom002
+    2300018: Base-Top
+    2300020: Base-Top001
+    2300022: Base-Top002
+    2300024: Base001
+    2300026: bigroller004
+    2300028: bigroller005
+    2300030: bigroller006
+    2300032: bigroller007
+    2300034: Bolts
+    2300036: Bolts 1
+    2300038: Bolts001
+    2300040: Bolts002
+    2300042: Bottle002
+    2300044: Bottle003
+    2300046: BottleOG001
+    2300048: BottleOG002
+    2300050: BottleOG003
+    2300052: BottleOG004
+    2300054: BottleOG005
+    2300056: BottleOG006
+    2300058: BottleOG007
+    2300060: BottleOG008
+    2300062: BottleStation4\
+    2300064: BottleStation4\001
+    2300066: BottleTrans2
+    2300068: BottleTransitionOne
+    2300070: BottleWaterFill
+    2300072: Box001
+    2300074: Box001 1
+    2300076: Box001 2
+    2300078: Box002
+    2300080: Box002 1
+    2300082: Box003
+    2300084: Box003 1
+    2300086: Box004
+    2300088: Box004 1
+    2300090: Box005
+    2300092: Box005 1
+    2300094: Box006
+    2300096: Box006 1
+    2300098: Box007
+    2300100: Box008
+    2300102: Box009
+    2300104: Box010
+    2300106: Box011
+    2300108: Box014
+    2300110: Box015
+    2300112: Box020
+    2300114: Box023
+    2300116: Box034
+    2300118: Box035
+    2300120: Box054
+    2300122: Box056
+    2300124: Box057
+    2300126: Box058
+    2300128: Box059
+    2300130: Box060
+    2300132: Box061
+    2300134: Box062
+    2300136: Box063
+    2300138: Box064
+    2300140: Box065
+    2300142: Box066
+    2300144: Box067
+    2300146: Box068
+    2300148: Box069
+    2300150: Box070
+    2300152: Box071
+    2300154: Box072p
+    2300156: Caps - Bottom001
+    2300158: Caps - Top001
+    2300160: Center - Cylinder
+    2300162: CenterSide
+    2300164: CenterSide001
+    2300166: CenterSide002
+    2300168: CenterSide003
+    2300170: ChamferBox001
+    2300172: ChamferBox001 1
+    2300174: ChamferBox002
+    2300176: ChamferBox003
+    2300178: ChamferBox004
+    2300180: ChamferBox005
+    2300182: ChamferBox006
+    2300184: ChamferBox007
+    2300186: ChamferBox008
+    2300188: conveyorplatform003
+    2300190: conveyorplatform004
+    2300192: conveyorplatform005
+    2300194: conveyorplatform007
+    2300196: conveyorplatform008
+    2300198: conveyorplatform009
+    2300200: conveyorplatform010
+    2300202: conveyorplatform011
+    2300204: conveyorplatform012
+    2300206: conveyorplatform013
+    2300208: conveyorplatform014
+    2300210: conveyorplatform016
+    2300212: conveyorplatform017
+    2300214: conveyorplatform018
+    2300216: conveyorplatform019
+    2300218: conveyorplatform020
+    2300220: conveyorsides
+    2300222: conveyorsides002
+    2300224: conveyorsides003
+    2300226: Cylinder001
+    2300228: Cylinder002
+    2300230: Cylinder003
+    2300232: Cylinder004
+    2300234: Cylinder005
+    2300236: Cylinder007
+    2300238: Cylinder008
+    2300240: Cylinder009
+    2300242: Cylinder010
+    2300244: Cylinder012
+    2300246: Cylinder013
+    2300248: Cylinder014
+    2300250: Cylinder015
+    2300252: Cylinder016
+    2300254: Cylinder017
+    2300256: Cylinder018
+    2300258: Cylinder019
+    2300260: Cylinder020
+    2300262: Cylinder021
+    2300264: Cylinder022
+    2300266: Cylinder023
+    2300268: Cylinder024
+    2300270: Cylinder025
+    2300272: Cylinder026
+    2300274: Cylinder027
+    2300276: Cylinder028
+    2300278: Cylinder029
+    2300280: Cylinder030
+    2300282: Cylinder031
+    2300284: Cylinder032
+    2300286: Cylinder033
+    2300288: Cylinder034
+    2300290: Cylinder035
+    2300292: Cylinder036
+    2300294: Cylinder037
+    2300296: Cylinder038
+    2300298: Cylinder039
+    2300300: Cylinder040
+    2300302: Cylinder041
+    2300304: Cylinder042
+    2300306: Cylinder043
+    2300308: Cylinder044
+    2300310: Cylinder045
+    2300312: Cylinder046
+    2300314: Cylinder049
+    2300316: Cylinder050
+    2300318: Cylinder051
+    2300320: Cylinder052
+    2300322: Cylinder053
+    2300324: Cylinder054
+    2300326: Cylinder055
+    2300328: Cylinder056
+    2300330: Cylinder057
+    2300332: Cylinder058
+    2300334: Cylinder059
+    2300336: Cylinder060
+    2300338: Cylinder061
+    2300340: CylinderCenter
+    2300342: CylinderCenter001
+    2300344: CylinderCenter003
+    2300346: CylinderCenter004
+    2300348: Floor
+    2300350: Gauge
+    2300352: Gauge001
+    2300354: Gripper
+    2300356: Gripper001
+    2300358: Gripper007
+    2300360: Gripper008
+    2300362: Gripper009
+    2300364: Gripper010
+    2300366: Gripper011
+    2300368: Gripper012
+    2300370: Gripper013
+    2300372: GripperArmL
+    2300374: GripperArmL001
+    2300376: GripperArmL002
+    2300378: GripperArmL007
+    2300380: GripperArmL009
+    2300382: GripperArmL010
+    2300384: GripperArmL011
+    2300386: GripperArmL012
+    2300388: GripperArmL013
+    2300390: GripperArmL014
+    2300392: GripperArmL015
+    2300394: GripperArmL016
+    2300396: GripperArmR
+    2300398: GripperArmR001
+    2300400: GripperArmR002
+    2300402: GripperArmR007
+    2300404: GripperArmR009
+    2300406: GripperArmR010
+    2300408: GripperArmR011
+    2300410: GripperArmR012
+    2300412: GripperArmR013
+    2300414: GripperArmR014
+    2300416: GripperArmR015
+    2300418: GripperArmR016
+    2300420: GripperOG
+    2300422: GripperTable
+    2300424: GripperTable001
+    2300426: GripperTable007
+    2300428: GripperTable008
+    2300430: GripperTable009
+    2300432: GripperTable010
+    2300434: GripperTable011
+    2300436: GripperTable012
+    2300438: Line001
+    2300440: Line002
+    2300442: Line003
+    2300444: Line004
+    2300446: loopedbelt001
+    2300448: loopedbelt002
+    2300450: loopedbelt003
+    2300452: Object
+    2300454: Object002
+    2300456: Object017
+    2300458: Object021
+    2300460: Object022
+    2300462: Object023
+    2300464: Object025
+    2300466: Object027
+    2300468: OP-OSPP001
+    2300470: OP-OSPP002
+    2300472: OP-OSPP004
+    2300474: OP-OSPP005
+    2300476: osppholder
+    2300478: osppholder001
+    2300480: P2M2_MeshPart0
+    2300482: P2M2_MeshPart1
+    2300484: P2M2_MeshPart2
+    2300486: P5T
+    2300488: P5T001
+    2300490: P5T002
+    2300492: P5T003
+    2300494: P5T004
+    2300496: P5T005
+    2300498: P5T006
+    2300500: P5TCylinders
+    2300502: P5TCylinders001
+    2300504: P5TCylinders002
+    2300506: P5TCylinders003
+    2300508: P5TCylinders004
+    2300510: P5TCylinders005
+    2300512: P8S
+    2300514: P8S001
+    2300516: P8S002
+    2300518: Part2Joined
+    2300520: Piston 1
+    2300522: Piston001
+    2300524: Piston002
+    2300526: Piston003
+    2300528: Piston007
+    2300530: Piston016
+    2300532: Piston023
+    2300534: Piston025
+    2300536: Piston026
+    2300538: PistonCylinder001
+    2300540: PistonCylinder007
+    2300542: PistonCylinder008
+    2300544: PlatformGraspers
+    2300546: PO-OSP001
+    2300548: PO-OSP002
+    2300550: Retopo nut
+    2300552: Retopo nut001
+    2300554: Retopo_P5RS
+    2300556: Retopo_Rod
+    2300558: Retopo_Rod001
+    2300560: Sphere001
+    2300562: Sphere002
+    2300564: Spinner
+    2300566: Spinner001
+    2300568: Spinner006
+    2300570: Spinner009
+    2300572: Spinner010
+    2300574: Spinner011
+    2300576: Spinner012
+    2300578: Spinner013
+    2300580: Station4-h4ma
+    2300582: Station4-h4ma001
+    2300584: Station4-p5gb
+    2300586: Station4-p5gb001
+    2300588: Station4-p5rs
+    2300590: Station4-p5rs001
+    2300592: Station4-PistonCylinder005
+    2300594: Station4-PistonCylinder006
+    2300596: Station4-Table
+    2300598: Station4-Table001
+    2300600: Tube001
+    2300602: Tube002
+    2300604: WaterBottleLabel
+    2300606: WaterBottleLabel001
+    2300608: WaterBottleLabel002
+    2300610: WaterBottleLabel003
+    2300612: WaterBottleLabel004
+    2300614: WaterBottleLabel005
+    2300616: WaterBottleLabel006
+    2300618: Wedge - Left001
+    3300000: Arm - Left001
+    3300002: Arm - Right001
+    3300004: Arm 2 - Left001
+    3300006: Arm 2 - Right001
+    3300008: Base - Bottom
+    3300010: Base - Top
+    3300012: Base-Bottom
+    3300014: Base-Bottom001
+    3300016: Base-Bottom002
+    3300018: Base-Top
+    3300020: Base-Top001
+    3300022: Base-Top002
+    3300024: Base001
+    3300026: bigroller004
+    3300028: bigroller005
+    3300030: bigroller006
+    3300032: bigroller007
+    3300034: Bolts
+    3300036: Bolts 1
+    3300038: Bolts001
+    3300040: Bolts002
+    3300042: Bottle002
+    3300044: Bottle003
+    3300046: BottleOG001
+    3300048: BottleOG002
+    3300050: BottleOG003
+    3300052: BottleOG004
+    3300054: BottleOG005
+    3300056: BottleOG006
+    3300058: BottleOG007
+    3300060: BottleOG008
+    3300062: BottleStation4\
+    3300064: BottleStation4\001
+    3300066: BottleTrans2
+    3300068: BottleTransitionOne
+    3300070: BottleWaterFill
+    3300072: Box001
+    3300074: Box001 1
+    3300076: Box001 2
+    3300078: Box002
+    3300080: Box002 1
+    3300082: Box003
+    3300084: Box003 1
+    3300086: Box004
+    3300088: Box004 1
+    3300090: Box005
+    3300092: Box005 1
+    3300094: Box006
+    3300096: Box006 1
+    3300098: Box007
+    3300100: Box008
+    3300102: Box009
+    3300104: Box010
+    3300106: Box011
+    3300108: Box014
+    3300110: Box015
+    3300112: Box020
+    3300114: Box023
+    3300116: Box034
+    3300118: Box035
+    3300120: Box054
+    3300122: Box056
+    3300124: Box057
+    3300126: Box058
+    3300128: Box059
+    3300130: Box060
+    3300132: Box061
+    3300134: Box062
+    3300136: Box063
+    3300138: Box064
+    3300140: Box065
+    3300142: Box066
+    3300144: Box067
+    3300146: Box068
+    3300148: Box069
+    3300150: Box070
+    3300152: Box071
+    3300154: Box072p
+    3300156: Caps - Bottom001
+    3300158: Caps - Top001
+    3300160: Center - Cylinder
+    3300162: CenterSide
+    3300164: CenterSide001
+    3300166: CenterSide002
+    3300168: CenterSide003
+    3300170: ChamferBox001
+    3300172: ChamferBox001 1
+    3300174: ChamferBox002
+    3300176: ChamferBox003
+    3300178: ChamferBox004
+    3300180: ChamferBox005
+    3300182: ChamferBox006
+    3300184: ChamferBox007
+    3300186: ChamferBox008
+    3300188: conveyorplatform003
+    3300190: conveyorplatform004
+    3300192: conveyorplatform005
+    3300194: conveyorplatform007
+    3300196: conveyorplatform008
+    3300198: conveyorplatform009
+    3300200: conveyorplatform010
+    3300202: conveyorplatform011
+    3300204: conveyorplatform012
+    3300206: conveyorplatform013
+    3300208: conveyorplatform014
+    3300210: conveyorplatform016
+    3300212: conveyorplatform017
+    3300214: conveyorplatform018
+    3300216: conveyorplatform019
+    3300218: conveyorplatform020
+    3300220: conveyorsides
+    3300222: conveyorsides002
+    3300224: conveyorsides003
+    3300226: Cylinder001
+    3300228: Cylinder002
+    3300230: Cylinder003
+    3300232: Cylinder004
+    3300234: Cylinder005
+    3300236: Cylinder007
+    3300238: Cylinder008
+    3300240: Cylinder009
+    3300242: Cylinder010
+    3300244: Cylinder012
+    3300246: Cylinder013
+    3300248: Cylinder014
+    3300250: Cylinder015
+    3300252: Cylinder016
+    3300254: Cylinder017
+    3300256: Cylinder018
+    3300258: Cylinder019
+    3300260: Cylinder020
+    3300262: Cylinder021
+    3300264: Cylinder022
+    3300266: Cylinder023
+    3300268: Cylinder024
+    3300270: Cylinder025
+    3300272: Cylinder026
+    3300274: Cylinder027
+    3300276: Cylinder028
+    3300278: Cylinder029
+    3300280: Cylinder030
+    3300282: Cylinder031
+    3300284: Cylinder032
+    3300286: Cylinder033
+    3300288: Cylinder034
+    3300290: Cylinder035
+    3300292: Cylinder036
+    3300294: Cylinder037
+    3300296: Cylinder038
+    3300298: Cylinder039
+    3300300: Cylinder040
+    3300302: Cylinder041
+    3300304: Cylinder042
+    3300306: Cylinder043
+    3300308: Cylinder044
+    3300310: Cylinder045
+    3300312: Cylinder046
+    3300314: Cylinder049
+    3300316: Cylinder050
+    3300318: Cylinder051
+    3300320: Cylinder052
+    3300322: Cylinder053
+    3300324: Cylinder054
+    3300326: Cylinder055
+    3300328: Cylinder056
+    3300330: Cylinder057
+    3300332: Cylinder058
+    3300334: Cylinder059
+    3300336: Cylinder060
+    3300338: Cylinder061
+    3300340: CylinderCenter
+    3300342: CylinderCenter001
+    3300344: CylinderCenter003
+    3300346: CylinderCenter004
+    3300348: Floor
+    3300350: Gauge
+    3300352: Gauge001
+    3300354: Gripper
+    3300356: Gripper001
+    3300358: Gripper007
+    3300360: Gripper008
+    3300362: Gripper009
+    3300364: Gripper010
+    3300366: Gripper011
+    3300368: Gripper012
+    3300370: Gripper013
+    3300372: GripperArmL
+    3300374: GripperArmL001
+    3300376: GripperArmL002
+    3300378: GripperArmL007
+    3300380: GripperArmL009
+    3300382: GripperArmL010
+    3300384: GripperArmL011
+    3300386: GripperArmL012
+    3300388: GripperArmL013
+    3300390: GripperArmL014
+    3300392: GripperArmL015
+    3300394: GripperArmL016
+    3300396: GripperArmR
+    3300398: GripperArmR001
+    3300400: GripperArmR002
+    3300402: GripperArmR007
+    3300404: GripperArmR009
+    3300406: GripperArmR010
+    3300408: GripperArmR011
+    3300410: GripperArmR012
+    3300412: GripperArmR013
+    3300414: GripperArmR014
+    3300416: GripperArmR015
+    3300418: GripperArmR016
+    3300420: GripperOG
+    3300422: GripperTable
+    3300424: GripperTable001
+    3300426: GripperTable007
+    3300428: GripperTable008
+    3300430: GripperTable009
+    3300432: GripperTable010
+    3300434: GripperTable011
+    3300436: GripperTable012
+    3300438: Line001
+    3300440: Line002
+    3300442: Line003
+    3300444: Line004
+    3300446: loopedbelt001
+    3300448: loopedbelt002
+    3300450: loopedbelt003
+    3300452: Object
+    3300454: Object002
+    3300456: Object017
+    3300458: Object021
+    3300460: Object022
+    3300462: Object023
+    3300464: Object025
+    3300466: Object027
+    3300468: OP-OSPP001
+    3300470: OP-OSPP002
+    3300472: OP-OSPP004
+    3300474: OP-OSPP005
+    3300476: osppholder
+    3300478: osppholder001
+    3300480: P2M2_MeshPart0
+    3300482: P2M2_MeshPart1
+    3300484: P2M2_MeshPart2
+    3300486: P5T
+    3300488: P5T001
+    3300490: P5T002
+    3300492: P5T003
+    3300494: P5T004
+    3300496: P5T005
+    3300498: P5T006
+    3300500: P5TCylinders
+    3300502: P5TCylinders001
+    3300504: P5TCylinders002
+    3300506: P5TCylinders003
+    3300508: P5TCylinders004
+    3300510: P5TCylinders005
+    3300512: P8S
+    3300514: P8S001
+    3300516: P8S002
+    3300518: Part2Joined
+    3300520: Piston 1
+    3300522: Piston001
+    3300524: Piston002
+    3300526: Piston003
+    3300528: Piston007
+    3300530: Piston016
+    3300532: Piston023
+    3300534: Piston025
+    3300536: Piston026
+    3300538: PistonCylinder001
+    3300540: PistonCylinder007
+    3300542: PistonCylinder008
+    3300544: PlatformGraspers
+    3300546: PO-OSP001
+    3300548: PO-OSP002
+    3300550: Retopo nut
+    3300552: Retopo nut001
+    3300554: Retopo_P5RS
+    3300556: Retopo_Rod
+    3300558: Retopo_Rod001
+    3300560: Sphere001
+    3300562: Sphere002
+    3300564: Spinner
+    3300566: Spinner001
+    3300568: Spinner006
+    3300570: Spinner009
+    3300572: Spinner010
+    3300574: Spinner011
+    3300576: Spinner012
+    3300578: Spinner013
+    3300580: Station4-h4ma
+    3300582: Station4-h4ma001
+    3300584: Station4-p5gb
+    3300586: Station4-p5gb001
+    3300588: Station4-p5rs
+    3300590: Station4-p5rs001
+    3300592: Station4-PistonCylinder005
+    3300594: Station4-PistonCylinder006
+    3300596: Station4-Table
+    3300598: Station4-Table001
+    3300600: Tube001
+    3300602: Tube002
+    3300604: WaterBottleLabel
+    3300606: WaterBottleLabel001
+    3300608: WaterBottleLabel002
+    3300610: WaterBottleLabel003
+    3300612: WaterBottleLabel004
+    3300614: WaterBottleLabel005
+    3300616: WaterBottleLabel006
+    3300618: Wedge - Left001
+    4300000: Box001
+    4300002: CylinderCenter001
+    4300004: Base-Top001
+    4300006: Bolts001
+    4300008: Base-Bottom001
+    4300010: Box005
+    4300012: Piston002
+    4300014: Box006
+    4300016: Base - Top
+    4300018: Base - Bottom
+    4300020: Piston001
+    4300022: Bolts
+    4300024: Part2Joined
+    4300026: Center - Cylinder
+    4300028: CenterSide
+    4300030: Box004
+    4300032: Box005
+    4300034: Box006
+    4300036: Box001
+    4300038: Box002
+    4300040: Box003
+    4300042: CenterSide001
+    4300044: Line001
+    4300046: Cylinder013
+    4300048: Cylinder016
+    4300050: Cylinder021
+    4300052: Cylinder003
+    4300054: Box010
+    4300056: Cylinder004
+    4300058: Cylinder007
+    4300060: Box009
+    4300062: Sphere001
+    4300064: Cylinder008
+    4300066: Cylinder018
+    4300068: Cylinder010
+    4300070: Gauge
+    4300072: Cylinder005
+    4300074: Box011
+    4300076: Cylinder009
+    4300078: Line002
+    4300080: Box007
+    4300082: Box008
+    4300084: ChamferBox003
+    4300086: Cylinder014
+    4300088: Cylinder020
+    4300090: Object002
+    4300092: ChamferBox001
+    4300094: Cylinder002
+    4300096: Tube001
+    4300098: Cylinder019
+    4300100: Cylinder015
+    4300102: Cylinder001
+    4300104: ChamferBox002
+    4300106: Cylinder012
+    4300108: Cylinder017
+    4300110: Retopo nut001
+    4300112: Retopo_Rod001
+    4300114: Retopo_Rod
+    4300116: Retopo nut
+    4300118: Retopo_P5RS
+    4300120: Arm - Left001
+    4300122: Arm 2 - Right001
+    4300124: Caps - Bottom001
+    4300126: Arm 2 - Left001
+    4300128: Base001
+    4300130: Wedge - Left001
+    4300132: Arm - Right001
+    4300134: Piston003
+    4300136: Caps - Top001
+    4300138: Floor
+    4300140: GripperTable001
+    4300142: Spinner001
+    4300144: Piston016
+    4300146: PistonCylinder001
+    4300148: Gripper001
+    4300150: GripperArmL001
+    4300152: GripperArmR001
+    4300154: OP-OSPP001
+    4300156: PO-OSP001
+    4300158: P8S
+    4300160: P5T
+    4300162: GripperOG
+    4300164: GripperArmR002
+    4300166: GripperArmL002
+    4300168: conveyorsides
+    4300170: ChamferBox001
+    4300172: conveyorplatform003
+    4300174: conveyorplatform007
+    4300176: Cylinder045
+    4300178: Cylinder046
+    4300180: Cylinder049
+    4300182: Cylinder050
+    4300184: conveyorsides002
+    4300186: Cylinder041
+    4300188: Cylinder042
+    4300190: conveyorplatform005
+    4300192: bigroller004
+    4300194: ChamferBox007
+    4300196: Cylinder043
+    4300198: bigroller005
+    4300200: Cylinder044
+    4300202: Cylinder051
+    4300204: conveyorplatform008
+    4300206: bigroller006
+    4300208: conveyorplatform009
+    4300210: ChamferBox008
+    4300212: Cylinder052
+    4300214: Cylinder053
+    4300216: Cylinder054
+    4300218: bigroller007
+    4300220: loopedbelt002
+    4300222: conveyorsides003
+    4300224: OP-OSPP004
+    4300226: PO-OSP002
+    4300228: osppholder
+    4300230: BottleOG005
+    4300232: PlatformGraspers
+    4300234: loopedbelt001
+    4300236: Box023
+    4300238: CylinderCenter003
+    4300240: Piston007
+    4300242: WaterBottleLabel006
+    4300244: GripperTable007
+    4300246: Piston023
+    4300248: PistonCylinder007
+    4300250: Gripper007
+    4300252: GripperArmL009
+    4300254: GripperArmR009
+    4300256: WaterBottleLabel004
+    4300258: WaterBottleLabel005
+    4300260: GripperTable
+    4300262: Spinner
+    4300264: P5T001
+    4300266: P5TCylinders
+    4300268: Gripper
+    4300270: GripperArmR
+    4300272: BottleOG004
+    4300274: GripperArmL
+    4300276: Box004
+    4300278: Box003
+    4300280: Box057
+    4300282: loopedbelt003
+    4300284: P8S001
+    4300286: Box056
+    4300288: Box054
+    4300290: OP-OSPP002
+    4300292: Object021
+    4300294: osppholder001
+    4300296: BottleWaterFill
+    4300298: Cylinder057
+    4300300: Object022
+    4300302: Box020
+    4300304: P8S002
+    4300306: Box014
+    4300308: OP-OSPP005
+    4300310: Station4-Table
+    4300312: Station4-p5rs
+    4300314: Station4-h4ma
+    4300316: Station4-PistonCylinder005
+    4300318: Spinner006
+    4300320: Object017
+    4300322: Station4-p5gb
+    4300324: GripperArmR007
+    4300326: GripperArmL007
+    4300328: BottleStation4\
+    4300330: Cylinder056
+    4300332: Box015
+    4300334: Box058
+    4300336: conveyorplatform019
+    4300338: conveyorplatform016
+    4300340: Box035
+    4300342: conveyorplatform020
+    4300344: conveyorplatform014
+    4300346: conveyorplatform017
+    4300348: conveyorplatform018
+    4300350: Box034
+    4300352: conveyorplatform013
+    4300354: conveyorplatform012
+    4300356: conveyorplatform010
+    4300358: conveyorplatform011
+    4300360: conveyorplatform004
+    4300362: Cylinder022
+    4300364: CenterSide002
+    4300366: Box059
+    4300368: Box060
+    4300370: Box061
+    4300372: Box062
+    4300374: Box063
+    4300376: Box064
+    4300378: CenterSide003
+    4300380: Line003
+    4300382: Cylinder023
+    4300384: Cylinder024
+    4300386: Cylinder025
+    4300388: Cylinder026
+    4300390: Box065
+    4300392: Cylinder027
+    4300394: Cylinder028
+    4300396: Box066
+    4300398: Sphere002
+    4300400: Cylinder029
+    4300402: Cylinder030
+    4300404: Cylinder031
+    4300406: Gauge001
+    4300408: Cylinder032
+    4300410: Box067
+    4300412: Cylinder033
+    4300414: Line004
+    4300416: Box068
+    4300418: Box069
+    4300420: ChamferBox004
+    4300422: Cylinder034
+    4300424: Cylinder035
+    4300426: Object023
+    4300428: ChamferBox005
+    4300430: Cylinder036
+    4300432: Tube002
+    4300434: Cylinder037
+    4300436: Cylinder038
+    4300438: Cylinder039
+    4300440: ChamferBox006
+    4300442: Cylinder040
+    4300444: P5T002
+    4300446: GripperTable008
+    4300448: Spinner009
+    4300450: GripperTable009
+    4300452: Spinner010
+    4300454: P5T004
+    4300456: P5TCylinders003
+    4300458: Gripper010
+    4300460: GripperArmR012
+    4300462: BottleTrans2
+    4300464: GripperArmL012
+    4300466: GripperTable010
+    4300468: Spinner011
+    4300470: P5T005
+    4300472: P5TCylinders004
+    4300474: Gripper011
+    4300476: GripperArmR013
+    4300478: GripperArmL013
+    4300480: BottleOG008
+    4300482: Cylinder058
+    4300484: P5TCylinders001
+    4300486: Gripper008
+    4300488: GripperArmL010
+    4300490: GripperArmR010
+    4300492: P5T003
+    4300494: P5TCylinders002
+    4300496: Gripper009
+    4300498: GripperArmR011
+    4300500: BottleTransitionOne
+    4300502: GripperArmL011
+    4300504: Bolts002
+    4300506: CylinderCenter004
+    4300508: Base-Top002
+    4300510: Base-Bottom002
+    4300512: Box070
+    4300514: Piston025
+    4300516: Box071
+    4300518: Bottle002
+    4300520: Bottle003
+    4300522: BottleOG001
+    4300524: Cylinder055
+    4300526: Station4-Table001
+    4300528: Station4-p5rs001
+    4300530: Station4-h4ma001
+    4300532: Station4-PistonCylinder006
+    4300534: Spinner012
+    4300536: Object025
+    4300538: Station4-p5gb001
+    4300540: BottleStation4\001
+    4300542: Cylinder061
+    4300544: WaterBottleLabel001
+    4300546: GripperArmL014
+    4300548: GripperArmR014
+    4300550: BottleOG002
+    4300552: WaterBottleLabel003
+    4300554: BottleOG003
+    4300556: BottleOG006
+    4300558: Cylinder060
+    4300560: WaterBottleLabel
+    4300562: Base-Top
+    4300564: Bolts
+    4300566: Base-Bottom
+    4300568: CylinderCenter
+    4300570: Box002
+    4300572: Piston
+    4300574: Box001
+    4300576: GripperTable011
+    4300578: Spinner013
+    4300580: P5T006
+    4300582: P5TCylinders005
+    4300584: Gripper012
+    4300586: GripperArmR015
+    4300588: GripperArmL015
+    4300590: BottleOG007
+    4300592: Cylinder059
+    4300594: GripperTable012
+    4300596: Piston026
+    4300598: PistonCylinder008
+    4300600: Gripper013
+    4300602: GripperArmL016
+    4300604: GripperArmR016
+    4300606: Object
+    4300608: Object027
+    4300610: P2M2_MeshPart0
+    4300612: P2M2_MeshPart1
+    4300614: P2M2_MeshPart2
+    4300616: Box072p
+    4300618: WaterBottleLabel002
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.9916318
+        functionName: animEnded
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1.50C4MA
+        weight: 1
+      - path: 1.50C4MA/Base - Bottom
+        weight: 1
+      - path: 1.50C4MA/Base - Top
+        weight: 1
+      - path: 1.50C4MA/Bolts
+        weight: 1
+      - path: 1.50C4MA/Center - Cylinder
+        weight: 1
+      - path: 1.50C4MA/Part2Joined
+        weight: 1
+      - path: 1.50C4MA/Piston001
+        weight: 1
+      - path: bigroller004
+        weight: 1
+      - path: bigroller005
+        weight: 1
+      - path: bigroller006
+        weight: 1
+      - path: bigroller007
+        weight: 1
+      - path: Bottle002
+        weight: 1
+      - path: Bottle003
+        weight: 1
+      - path: BottleOG001
+        weight: 1
+      - path: BottleOG001/Cylinder055
+        weight: 1
+      - path: BottleOG002
+        weight: 1
+      - path: BottleOG002/WaterBottleLabel003
+        weight: 1
+      - path: BottleOG003
+        weight: 1
+      - path: BottleOG006
+        weight: 1
+      - path: BottleOG006/Cylinder060
+        weight: 1
+      - path: BottleOG006/WaterBottleLabel
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box003
+        weight: 1
+      - path: Box004
+        weight: 1
+      - path: Box014
+        weight: 1
+      - path: Box015
+        weight: 1
+      - path: Box023
+        weight: 1
+      - path: Box023/CylinderCenter003
+        weight: 1
+      - path: Box023/CylinderCenter003/Piston009
+        weight: 1
+      - path: Box023/CylinderCenter003/Piston009/Piston007
+        weight: 1
+      - path: Box023/CylinderCenter003/Piston009/WaterBottleLabel006
+        weight: 1
+      - path: Box034
+        weight: 1
+      - path: Box035
+        weight: 1
+      - path: Box054
+        weight: 1
+      - path: Box056
+        weight: 1
+      - path: Box057
+        weight: 1
+      - path: Box058
+        weight: 1
+      - path: Box072p
+        weight: 1
+      - path: cell_1
+        weight: 1
+      - path: cell_1.Target
+        weight: 1
+      - path: cell_002
+        weight: 1
+      - path: cell_002.Target
+        weight: 1
+      - path: cell_003
+        weight: 1
+      - path: cell_003.Target
+        weight: 1
+      - path: cell_004
+        weight: 1
+      - path: cell_004.Target
+        weight: 1
+      - path: cell_005
+        weight: 1
+      - path: cell_005.Target
+        weight: 1
+      - path: cell_006
+        weight: 1
+      - path: cell_006.Target
+        weight: 1
+      - path: cell_007
+        weight: 1
+      - path: cell_007.Target
+        weight: 1
+      - path: cell_008
+        weight: 1
+      - path: cell_008.Target
+        weight: 1
+      - path: ChamferBox001
+        weight: 1
+      - path: ChamferBox007
+        weight: 1
+      - path: ChamferBox008
+        weight: 1
+      - path: Constraint1
+        weight: 1
+      - path: Constraint2
+        weight: 1
+      - path: Constraint3
+        weight: 1
+      - path: conveyorplatform003
+        weight: 1
+      - path: conveyorplatform005
+        weight: 1
+      - path: conveyorplatform007
+        weight: 1
+      - path: conveyorplatform008
+        weight: 1
+      - path: conveyorplatform009
+        weight: 1
+      - path: conveyorplatform014
+        weight: 1
+      - path: conveyorplatform016
+        weight: 1
+      - path: conveyorplatform017
+        weight: 1
+      - path: conveyorplatform018
+        weight: 1
+      - path: conveyorplatform019
+        weight: 1
+      - path: conveyorplatform020
+        weight: 1
+      - path: conveyorsides
+        weight: 1
+      - path: conveyorsides002
+        weight: 1
+      - path: Crusher001
+        weight: 1
+      - path: Crusher001/Group002
+        weight: 1
+      - path: Crusher001/Group002/Base-Bottom001
+        weight: 1
+      - path: Crusher001/Group002/Base-Top001
+        weight: 1
+      - path: Crusher001/Group002/Bolts001
+        weight: 1
+      - path: Crusher001/Group002/Box005 1
+        weight: 1
+      - path: Crusher001/Group002/CylinderCenter001
+        weight: 1
+      - path: Crusher001/Piston001 1
+        weight: 1
+      - path: Crusher001/Piston001 1/Box006 1
+        weight: 1
+      - path: Crusher001/Piston001 1/Piston002
+        weight: 1
+      - path: Crusher002
+        weight: 1
+      - path: Crusher002/Group014
+        weight: 1
+      - path: Crusher002/Group014/Base-Bottom002
+        weight: 1
+      - path: Crusher002/Group014/Base-Top002
+        weight: 1
+      - path: Crusher002/Group014/Bolts002
+        weight: 1
+      - path: Crusher002/Group014/Box070
+        weight: 1
+      - path: Crusher002/Group014/CylinderCenter004
+        weight: 1
+      - path: Crusher002/Piston024
+        weight: 1
+      - path: Crusher002/Piston024/Box071
+        weight: 1
+      - path: Crusher002/Piston024/Piston025
+        weight: 1
+      - path: Cylinder041
+        weight: 1
+      - path: Cylinder042
+        weight: 1
+      - path: Cylinder043
+        weight: 1
+      - path: Cylinder044
+        weight: 1
+      - path: Cylinder051
+        weight: 1
+      - path: Cylinder052
+        weight: 1
+      - path: Cylinder053
+        weight: 1
+      - path: Cylinder054
+        weight: 1
+      - path: Floor
+        weight: 1
+      - path: GripperOG
+        weight: 1
+      - path: GripperOG/GripperArmL002
+        weight: 1
+      - path: GripperOG/GripperArmR002
+        weight: 1
+      - path: GripperTable
+        weight: 1
+      - path: GripperTable/Spinner
+        weight: 1
+      - path: GripperTable/Spinner/P5T001
+        weight: 1
+      - path: GripperTable/Spinner/P5T001/P5TCylinders
+        weight: 1
+      - path: GripperTable/Spinner/P5T001/P5TCylinders/Gripper
+        weight: 1
+      - path: GripperTable/Spinner/P5T001/P5TCylinders/Gripper/GripperArmL
+        weight: 1
+      - path: GripperTable/Spinner/P5T001/P5TCylinders/Gripper/GripperArmR
+        weight: 1
+      - path: GripperTable/Spinner/P5T001/P5TCylinders/Gripper/GripperArmR/BottleOG004
+        weight: 1
+      - path: GripperTable007
+        weight: 1
+      - path: GripperTable007/Piston023
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007/Gripper007
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007/Gripper007/GripperArmL009
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007/Gripper007/GripperArmR009
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007/Gripper007/GripperArmR009/WaterBottleLabel004
+        weight: 1
+      - path: GripperTable007/Piston023/PistonCylinder007/Gripper007/GripperArmR009/WaterBottleLabel004/WaterBottleLabel005
+        weight: 1
+      - path: GripperTable008
+        weight: 1
+      - path: GripperTable008/Spinner009
+        weight: 1
+      - path: GripperTable009
+        weight: 1
+      - path: GripperTable009/Spinner010
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004/P5TCylinders003
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004/P5TCylinders003/Gripper010
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004/P5TCylinders003/Gripper010/GripperArmL012
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004/P5TCylinders003/Gripper010/GripperArmR012
+        weight: 1
+      - path: GripperTable009/Spinner010/P5T004/P5TCylinders003/Gripper010/GripperArmR012/BottleTrans2
+        weight: 1
+      - path: GripperTable010
+        weight: 1
+      - path: GripperTable010/Spinner011
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004/Gripper011
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004/Gripper011/BottleOG008
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004/Gripper011/BottleOG008/Cylinder058
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004/Gripper011/GripperArmL013
+        weight: 1
+      - path: GripperTable010/Spinner011/P5T005/P5TCylinders004/Gripper011/GripperArmR013
+        weight: 1
+      - path: GripperTable011
+        weight: 1
+      - path: GripperTable011/Spinner013
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005/Gripper012
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005/Gripper012/BottleOG007
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005/Gripper012/BottleOG007/Cylinder059
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005/Gripper012/GripperArmL015
+        weight: 1
+      - path: GripperTable011/Spinner013/P5T006/P5TCylinders005/Gripper012/GripperArmR015
+        weight: 1
+      - path: GripperTable012
+        weight: 1
+      - path: GripperTable012/Piston026
+        weight: 1
+      - path: GripperTable012/Piston026/PistonCylinder008
+        weight: 1
+      - path: GripperTable012/Piston026/PistonCylinder008/Gripper013
+        weight: 1
+      - path: GripperTable012/Piston026/PistonCylinder008/Gripper013/GripperArmL016
+        weight: 1
+      - path: GripperTable012/Piston026/PistonCylinder008/Gripper013/GripperArmR016
+        weight: 1
+      - path: Group001
+        weight: 1
+      - path: Group001/Base-Bottom
+        weight: 1
+      - path: Group001/Base-Top
+        weight: 1
+      - path: Group001/Bolts 1
+        weight: 1
+      - path: Group001/Box002
+        weight: 1
+      - path: Group001/CylinderCenter
+        weight: 1
+      - path: Group001/Piston
+        weight: 1
+      - path: Group001/Piston/Box001 2
+        weight: 1
+      - path: Group001/Piston/Piston 1
+        weight: 1
+      - path: Group008
+        weight: 1
+      - path: Group008/Cylinder045
+        weight: 1
+      - path: Group008/Cylinder046
+        weight: 1
+      - path: Group010
+        weight: 1
+      - path: Group010/Cylinder049
+        weight: 1
+      - path: Group010/Cylinder050
+        weight: 1
+      - path: Group012
+        weight: 1
+      - path: Group012/conveyorsides003
+        weight: 1
+      - path: Group012/loopedbelt002
+        weight: 1
+      - path: Group013
+        weight: 1
+      - path: Group013/conveyorplatform004
+        weight: 1
+      - path: Group013/conveyorplatform010
+        weight: 1
+      - path: Group013/conveyorplatform011
+        weight: 1
+      - path: Group013/conveyorplatform012
+        weight: 1
+      - path: Group013/conveyorplatform013
+        weight: 1
+      - path: loopedbelt001
+        weight: 1
+      - path: loopedbelt003
+        weight: 1
+      - path: Object
+        weight: 1
+      - path: Object019
+        weight: 1
+      - path: Object027
+        weight: 1
+      - path: OP-OSPP002
+        weight: 1
+      - path: OP-OSPP002/Object021
+        weight: 1
+      - path: OP-OSPP002/Object021/Object022
+        weight: 1
+      - path: OP-OSPP002/Object021/Object022/Box020
+        weight: 1
+      - path: OP-OSPP002/Object021/Object022/Box020/P8S002
+        weight: 1
+      - path: OP-OSPP002/Object021/osppholder001
+        weight: 1
+      - path: OP-OSPP002/Object021/osppholder001/BottleWaterFill
+        weight: 1
+      - path: OP-OSPP002/Object021/osppholder001/BottleWaterFill/Cylinder057
+        weight: 1
+      - path: OP-OSPP004
+        weight: 1
+      - path: OP-OSPP004/PO-OSP002
+        weight: 1
+      - path: OP-OSPP004/PO-OSP002/osppholder
+        weight: 1
+      - path: OP-OSPP004/PO-OSP002/osppholder/BottleOG005
+        weight: 1
+      - path: OP-OSPP004/PO-OSP002/osppholder/PlatformGraspers
+        weight: 1
+      - path: OP-OSPP005
+        weight: 1
+      - path: P2M2
+        weight: 1
+      - path: P2M2/P2M2_MeshPart0
+        weight: 1
+      - path: P2M2/P2M2_MeshPart1
+        weight: 1
+      - path: P2M2/P2M2_MeshPart2
+        weight: 1
+      - path: P5GB001
+        weight: 1
+      - path: P5GB001/Arm - Left001
+        weight: 1
+      - path: P5GB001/Arm - Right001
+        weight: 1
+      - path: P5GB001/Arm 2 - Left001
+        weight: 1
+      - path: P5GB001/Arm 2 - Right001
+        weight: 1
+      - path: P5GB001/Base001
+        weight: 1
+      - path: P5GB001/Caps - Bottom001
+        weight: 1
+      - path: P5GB001/Caps - Top001
+        weight: 1
+      - path: P5GB001/Object012
+        weight: 1
+      - path: P5GB001/Piston003
+        weight: 1
+      - path: P5GB001/Wedge - Left001
+        weight: 1
+      - path: P5RS
+        weight: 1
+      - path: P5RS/Retopo nut
+        weight: 1
+      - path: P5RS/Retopo nut001
+        weight: 1
+      - path: P5RS/Retopo_P5RS
+        weight: 1
+      - path: P5RS/Retopo_Rod
+        weight: 1
+      - path: P5RS/Retopo_Rod001
+        weight: 1
+      - path: P5T
+        weight: 1
+      - path: P5T002
+        weight: 1
+      - path: P5T003
+        weight: 1
+      - path: P5T003/P5TCylinders002
+        weight: 1
+      - path: P5T003/P5TCylinders002/Gripper009
+        weight: 1
+      - path: P5T003/P5TCylinders002/Gripper009/GripperArmL011
+        weight: 1
+      - path: P5T003/P5TCylinders002/Gripper009/GripperArmR011
+        weight: 1
+      - path: P5T003/P5TCylinders002/Gripper009/GripperArmR011/BottleTransitionOne
+        weight: 1
+      - path: P5TCylinders001
+        weight: 1
+      - path: P5TCylinders001/Gripper008
+        weight: 1
+      - path: P5TCylinders001/Gripper008/GripperArmL010
+        weight: 1
+      - path: P5TCylinders001/Gripper008/GripperArmR010
+        weight: 1
+      - path: P8S
+        weight: 1
+      - path: P8S001
+        weight: 1
+      - path: P32
+        weight: 1
+      - path: P32/Box001 1
+        weight: 1
+      - path: P32/Box002 1
+        weight: 1
+      - path: P32/Box003 1
+        weight: 1
+      - path: P32/Box004 1
+        weight: 1
+      - path: P32/Box005
+        weight: 1
+      - path: P32/Box006
+        weight: 1
+      - path: P32/Box007
+        weight: 1
+      - path: P32/Box008
+        weight: 1
+      - path: P32/Box009
+        weight: 1
+      - path: P32/Box010
+        weight: 1
+      - path: P32/Box011
+        weight: 1
+      - path: P32/CenterSide
+        weight: 1
+      - path: P32/CenterSide001
+        weight: 1
+      - path: P32/ChamferBox001 1
+        weight: 1
+      - path: P32/ChamferBox002
+        weight: 1
+      - path: P32/ChamferBox003
+        weight: 1
+      - path: P32/Cylinder001
+        weight: 1
+      - path: P32/Cylinder002
+        weight: 1
+      - path: P32/Cylinder003
+        weight: 1
+      - path: P32/Cylinder004
+        weight: 1
+      - path: P32/Cylinder005
+        weight: 1
+      - path: P32/Cylinder007
+        weight: 1
+      - path: P32/Cylinder008
+        weight: 1
+      - path: P32/Cylinder009
+        weight: 1
+      - path: P32/Cylinder010
+        weight: 1
+      - path: P32/Cylinder012
+        weight: 1
+      - path: P32/Cylinder013
+        weight: 1
+      - path: P32/Cylinder014
+        weight: 1
+      - path: P32/Cylinder015
+        weight: 1
+      - path: P32/Cylinder016
+        weight: 1
+      - path: P32/Cylinder017
+        weight: 1
+      - path: P32/Cylinder018
+        weight: 1
+      - path: P32/Cylinder019
+        weight: 1
+      - path: P32/Cylinder020
+        weight: 1
+      - path: P32/Cylinder021
+        weight: 1
+      - path: P32/Gauge
+        weight: 1
+      - path: P32/Line001
+        weight: 1
+      - path: P32/Line002
+        weight: 1
+      - path: P32/Object001
+        weight: 1
+      - path: P32/Object002
+        weight: 1
+      - path: P32/Sphere001
+        weight: 1
+      - path: P32/Tube001
+        weight: 1
+      - path: P033
+        weight: 1
+      - path: P033/Box059
+        weight: 1
+      - path: P033/Box060
+        weight: 1
+      - path: P033/Box061
+        weight: 1
+      - path: P033/Box062
+        weight: 1
+      - path: P033/Box063
+        weight: 1
+      - path: P033/Box064
+        weight: 1
+      - path: P033/Box065
+        weight: 1
+      - path: P033/Box066
+        weight: 1
+      - path: P033/Box067
+        weight: 1
+      - path: P033/Box068
+        weight: 1
+      - path: P033/Box069
+        weight: 1
+      - path: P033/CenterSide002
+        weight: 1
+      - path: P033/CenterSide003
+        weight: 1
+      - path: P033/ChamferBox004
+        weight: 1
+      - path: P033/ChamferBox005
+        weight: 1
+      - path: P033/ChamferBox006
+        weight: 1
+      - path: P033/Cylinder022
+        weight: 1
+      - path: P033/Cylinder023
+        weight: 1
+      - path: P033/Cylinder024
+        weight: 1
+      - path: P033/Cylinder025
+        weight: 1
+      - path: P033/Cylinder026
+        weight: 1
+      - path: P033/Cylinder027
+        weight: 1
+      - path: P033/Cylinder028
+        weight: 1
+      - path: P033/Cylinder029
+        weight: 1
+      - path: P033/Cylinder030
+        weight: 1
+      - path: P033/Cylinder031
+        weight: 1
+      - path: P033/Cylinder032
+        weight: 1
+      - path: P033/Cylinder033
+        weight: 1
+      - path: P033/Cylinder034
+        weight: 1
+      - path: P033/Cylinder035
+        weight: 1
+      - path: P033/Cylinder036
+        weight: 1
+      - path: P033/Cylinder037
+        weight: 1
+      - path: P033/Cylinder038
+        weight: 1
+      - path: P033/Cylinder039
+        weight: 1
+      - path: P033/Cylinder040
+        weight: 1
+      - path: P033/Gauge001
+        weight: 1
+      - path: P033/Line003
+        weight: 1
+      - path: P033/Line004
+        weight: 1
+      - path: P033/Object023
+        weight: 1
+      - path: P033/Object024
+        weight: 1
+      - path: P033/Sphere002
+        weight: 1
+      - path: P033/Tube002
+        weight: 1
+      - path: PathConstraintLabelToDump
+        weight: 1
+      - path: PerspectiveCamera
+        weight: 1
+      - path: PerspectiveCamera.Target
+        weight: 1
+      - path: PhysCamera001
+        weight: 1
+      - path: PhysCamera001.Target
+        weight: 1
+      - path: PhysCamera002
+        weight: 1
+      - path: PhysCamera002.Target
+        weight: 1
+      - path: PhysCamera003.Target
+        weight: 1
+      - path: RodlessCylinder
+        weight: 1
+      - path: RodlessCylinder/OP-OSPP001
+        weight: 1
+      - path: RodlessCylinder/OP-OSPP001/PO-OSP001
+        weight: 1
+      - path: Shape002
+        weight: 1
+      - path: Shape003
+        weight: 1
+      - path: Shape004
+        weight: 1
+      - path: Shape005
+        weight: 1
+      - path: Station4-Table
+        weight: 1
+      - path: Station4-Table/Station4-p5rs
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Object017
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Station4-p5gb
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Station4-p5gb/BottleStation4\
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Station4-p5gb/BottleStation4\/Cylinder056
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Station4-p5gb/GripperArmL007
+        weight: 1
+      - path: Station4-Table/Station4-p5rs/Station4-h4ma/Station4-PistonCylinder005/Spinner006/Station4-p5gb/GripperArmR007
+        weight: 1
+      - path: Station4-Table001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Object025
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001/BottleStation4\001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001/BottleStation4\001/Cylinder061
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001/BottleStation4\001/WaterBottleLabel001
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001/GripperArmL014
+        weight: 1
+      - path: Station4-Table001/Station4-p5rs001/Station4-h4ma001/Station4-PistonCylinder006/Spinner012/Station4-p5gb001/GripperArmR014
+        weight: 1
+      - path: TransitionerOG
+        weight: 1
+      - path: TransitionerOG/GripperTable001
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001/Piston016
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001/Piston016/PistonCylinder001
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001/Piston016/PistonCylinder001/Gripper001
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001/Piston016/PistonCylinder001/Gripper001/GripperArmL001
+        weight: 1
+      - path: TransitionerOG/GripperTable001/Spinner001/Piston016/PistonCylinder001/Gripper001/GripperArmR001
+        weight: 1
+      - path: VRayLight001
+        weight: 1
+      - path: VRayLight002
+        weight: 1
+      - path: WaterBottleLabel002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
