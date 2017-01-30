@@ -36,7 +36,7 @@ public class onEnd : StateMachineBehaviour {
     }
     override public void OnStateExit(Animator anim, AnimatorStateInfo info, int index)
     {
-        Debug.Log("going to Idle");
-        anim.SetBool("IsIdle", true);
+        //Debug.Log("going to Idle");
+        //anim.SetBool("IsIdle", true);
     }
 }

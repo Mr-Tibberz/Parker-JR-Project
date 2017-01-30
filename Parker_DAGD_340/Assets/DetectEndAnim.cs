@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DetectEndAnim : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    public GameObject startAnimBttn = null; //set in editor
+                                            // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -17,6 +17,7 @@ public class DetectEndAnim : MonoBehaviour {
     public void animEnded()
     {
         GetComponent<Animator>().SetBool("IsIdle", true);
-        print("triggered");
+        startAnimBttn.SetActive(true);
+        print("returning to idle");
     }
 }
