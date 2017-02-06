@@ -23,45 +23,57 @@ public class Gardei_CamPan : MonoBehaviour {
     //float t = currentLerpTime / lerpTime;
     //t = Mathf.Sin(t* Mathf.PI * 0.5f);
 
-    public Transform row1;
-    //public Transform row2;
-    //public Transform row3;
 
+    /// <summary>
+    /// Transform: camPos1 Target lerp position for station 1.
+    /// </summary>
+    public Transform camPos1; //set in editor please
+    
+    /// <summary>
+    /// priorPos: position of camera on last frame
+    /// priorRot: rotation of camera on last frame
+    /// </summary>
     Vector3 priorPos = Vector3.zero;
     Vector3 priorRot = Vector3.zero;
-    bool lerping = false;
-    float lerp = 0;
-    float expSlide = .02f;
+
+    /// <summary>
+    /// moveCam: yes/no is the camera transitioning to a new position.
+    /// </summary>
+    bool moveCam = false;
+
+    float lerpTime = 1f;
+    float currentLerpTime;
 
 	// Use this for initialization
 	void Start () {
-        print(row1.transform.position);
+        priorPos = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        print(lerping);
+       
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
-            lerping = true;
+            moveCam = true;
+            currentLerpTime = 0f;
+            //set prior transform values
             priorPos = transform.position;
             priorRot = transform.rotation.eulerAngles;
-            
         }
-        if (lerping)
+        
+        if (moveCam)
         {
-
-            transform.position = Vector3.Lerp(priorPos, row1.transform.position, lerp);
-            //transform.rotation.eulerAngles = new Vector3(Mathf.Lerp(priorRot.x, row1.transform.rotation.eulerAngles.x, lerp),0,0);
-            //expSlide /= 1.03f;
-            lerp += expSlide;
-            if (lerp >= 1)
+            currentLerpTime += Time.deltaTime;
+            if (currentLerpTime > lerpTime)
             {
-                lerp = 1;
-                lerping = false;
+                currentLerpTime = lerpTime;
             }
+
+            float perc = currentLerpTime / lerpTime;
+            //SETUP SWITCH HERE TO CONTROL MULTIPLE POINTS.
+            transform.position = Vector3.Lerp(priorPos, camPos1.transform.position, perc);
+            transform.eulerAngles = Vector3.Lerp(priorRot, camPos1.eulerAngles, perc);
         }
-        else lerp = 0;
+        
 	}
 }
