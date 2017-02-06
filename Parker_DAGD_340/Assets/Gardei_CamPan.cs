@@ -63,13 +63,15 @@ public class Gardei_CamPan : MonoBehaviour {
         
         if (moveCam)
         {
-            currentLerpTime += Time.deltaTime;
+            //divide to slow down, or multiply to speed up
+            currentLerpTime += Time.deltaTime / 2;
             if (currentLerpTime > lerpTime)
             {
                 currentLerpTime = lerpTime;
             }
 
-            float perc = currentLerpTime / lerpTime;
+            float perc = currentLerpTime / lerpTime; //percent 0 - 1
+            perc = perc*perc*perc * (perc * (6f*perc - 15f) + 10f);
             //SETUP SWITCH HERE TO CONTROL MULTIPLE POINTS.
             transform.position = Vector3.Lerp(priorPos, camPos1.transform.position, perc);
             transform.eulerAngles = Vector3.Lerp(priorRot, camPos1.eulerAngles, perc);
