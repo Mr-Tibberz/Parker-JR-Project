@@ -115,6 +115,12 @@ public class Gardei_CamPan : MonoBehaviour {
         {
             transform.position = Vector3.Lerp(priorPos, targetPos, perc);
             transform.rotation = Quaternion.Lerp(priorRot, targetRot, perc);
+        } else
+        {
+            if (Input.GetKey(KeyCode.Mouse1))
+            {
+                transform.eulerAngles += new Vector3(0, Input.GetAxis("Mouse X"));
+            }
         }
             
 	}
@@ -171,11 +177,10 @@ public class Gardei_CamPan : MonoBehaviour {
     /// </summary>
     public void panCam() //triggered by UI or SPACE when debugging
     {
-
-        currentLerpTime = 0f;
-        //set prior transform values
         priorPos = transform.position;
         priorRot = transform.rotation;
+        currentLerpTime = 0f;
+        
     }
 
 }
