@@ -9,6 +9,13 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -44,6 +51,21 @@ $(function() {
 });
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_gardei___cam_pan.html','');});
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -58,7 +80,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">Gardei_CamPan Member List</div>  </div>
@@ -68,22 +89,25 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a22ff78b430a317e7871a396f35b097e6">camPos1</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>camPos2</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>camPos3</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>camPos4</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>camPos5</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>camPos6</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>camPos7</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>camPosHMI</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>camPosSky</b> (defined in <a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a>)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_gardei___cam_pan.html#aa4cfc9789ca0088602358fea82ad51fa">camPos2</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a5d21560f6c457bc96518f09db74f6a6d">camPos3</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_gardei___cam_pan.html#ac6e127172963ce5e0300c145637e7838">camPos4</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a5454f0988f8e6290c468a25741f82456">camPos5</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a569365c3a56003d9e0208b3043d4623d">camPos6</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a4d524c86c24d5bb5a1582015c851cf88">camPos7</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_gardei___cam_pan.html#ad010b6b5ec0254cc2fd93c04a8062353">camPosHMI</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a36c938a200942175f96689573de1335b">camPosSky</a></td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a6ae5373621faf797c67ad4eb961f40ca">panCam</a>()</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gardei___cam_pan.html#a3800f7be72b1b6b893e00e2c6248bcba">setTarget</a>(int stationNum)</td><td class="entry"><a class="el" href="class_gardei___cam_pan.html">Gardei_CamPan</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.13
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
 </body>
 </html>

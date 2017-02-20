@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['settarget',['setTarget',['../class_gardei___cam_pan.html#a3800f7be72b1b6b893e00e2c6248bcba',1,'Gardei_CamPan']]]
+  ['pancam',['panCam',['../class_gardei___cam_pan.html#a6ae5373621faf797c67ad4eb961f40ca',1,'Gardei_CamPan']]]
 ];

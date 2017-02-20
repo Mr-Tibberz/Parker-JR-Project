@@ -1,63 +1,77 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// The CamPan (Camera Pan) Script Houses the code responsible for moving the camera between preset points.
+/// Point1: Prior Position
+/// Point2: Target Position
+/// </summary>
 public class Gardei_CamPan : MonoBehaviour {
-    //ideas - use vector 3 lerp / Exponential slide to move camera
-
-    //Notes from web
-
-    /*
-        https://chicounity3d.wordpress.com/2014/05/23/how-to-lerp-like-a-pro/
-
-        Ease Out with Sinerp
-        float t = currentLerpTime / lerpTime;
-        t = Mathf.Sin(t * Mathf.PI * 0.5f);
-     
-        Ease In with Coserp
-        t = 1f - Mathf.Cos(t * Mathf.PI * 0.5f)
-     
-     */
 
     /// <summary>
-    /// camPos1: Target lerp position for station 1.
-    /// camPos2: Target lerp position for station 2.
-    /// camPos3: Target lerp position for station 3.
-    /// camPos4: Target lerp position for station 4.
-    /// camPos5: Target lerp position for station 5.
-    /// camPos6: Target lerp position for station 6.
-    /// camPos7: Target lerp position for station 7.
-    /// camPosSky: Target lerp position for Skyview.
-    /// camPosHMI: Target lerp position for HMI.
-    /// priorPos: position of camera on last frame
-    /// priorRot: rotation of camera on last frame 
-    /// targetPos: position of target destination for camera
-    /// targetRot: rotation of target rotation for camera
-    /// moveCam: yes/no is the camera transitioning to a new position.
-    /// lerpTime: maximum value of a lerp sequence.
-    /// currentLerpTime: value between 0 and 1 will guide the camera through a transition to a new location.
+    /// Target lerp position for station 1.
     /// </summary>
-
     public GameObject camPos1; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 2.
+    /// </summary>
     public GameObject camPos2; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 3.
+    /// </summary>
     public GameObject camPos3; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 4.
+    /// </summary>
     public GameObject camPos4; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 5.
+    /// </summary>
     public GameObject camPos5; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 6.
+    /// </summary>
     public GameObject camPos6; //set in editor please
+    /// <summary>
+    /// Target lerp position for station 7.
+    /// </summary>
     public GameObject camPos7; //set in editor please
+    /// <summary>
+    /// Target lerp position for Skyview.
+    /// </summary>
     public GameObject camPosSky; //set in editor please
+    /// <summary>
+    /// Target lerp position for HMI.
+    /// </summary>
     public GameObject camPosHMI; //set in editor please
-    
+    /// <summary>
+    /// Position of camera on last frame
+    /// </summary>
     Vector3 priorPos;
+    /// <summary>
+    /// Rotation of camera on last frame 
+    /// </summary>
     Quaternion priorRot;
+    /// <summary>
+    /// Position of target destination for camera
+    /// </summary>
     Vector3 targetPos;
+    /// <summary>
+    /// Rotation of target rotation for camera
+    /// </summary>
     Quaternion targetRot;
-
-    bool moveCam = false;
-
+    /// <summary>
+    /// Maximum value of a lerp sequence.
+    /// </summary>
     float lerpTime = 1f;
+    /// <summary>
+    /// Value between 0 and 1 will guide the camera through a transition to a new location.
+    /// </summary>
     float currentLerpTime;
 
 	// Use this for initialization
+    /// <summary>
+    /// When software starts, will set both prior and target to the same spot.
+    /// </summary>
 	void Start () {
         priorPos = transform.position;
         priorRot = transform.rotation;
@@ -67,6 +81,9 @@ public class Gardei_CamPan : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+    /// <summary>
+    /// Standard Update Loop. All code is ran once per frame.
+    /// </summary>
 	void Update () {
 
         //Testing for switching between stations.
@@ -81,7 +98,7 @@ public class Gardei_CamPan : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Keypad9)) setTarget(9);
         //divide to slow down, or multiply to speed transition up
         currentLerpTime += Time.deltaTime / 2;
-            if (currentLerpTime > lerpTime)
+        if (currentLerpTime > lerpTime)
             {
                 currentLerpTime = lerpTime;
             }
