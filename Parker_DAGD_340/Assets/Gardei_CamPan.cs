@@ -52,6 +52,10 @@ public class Gardei_CamPan : MonoBehaviour {
     /// </summary>
     Quaternion priorRot;
     /// <summary>
+    /// Distance between target and camera on last frame.
+    /// </summary>
+    Vector3 priorDis;
+    /// <summary>
     /// Position of target destination for camera
     /// </summary>
     Vector3 targetPos;
@@ -59,6 +63,10 @@ public class Gardei_CamPan : MonoBehaviour {
     /// Rotation of target rotation for camera
     /// </summary>
     Quaternion targetRot;
+    /// <summary>
+    /// Distance between camera and target.
+    /// </summary>
+    Vector3 targetDis;
     /// <summary>
     /// Maximum value of a lerp sequence.
     /// </summary>
@@ -79,9 +87,10 @@ public class Gardei_CamPan : MonoBehaviour {
 	void Start () {
         priorPos = transform.position;
         priorRot = transform.rotation;
-
+        priorDis = transform.GetChild(0).transform.localPosition;
         targetPos = transform.position;
         targetRot = transform.rotation;
+        targetDis = transform.GetChild(0).transform.localPosition;
 	}
 	
 	// Update is called once per frame
@@ -115,6 +124,7 @@ public class Gardei_CamPan : MonoBehaviour {
         {
             transform.position = Vector3.Lerp(priorPos, targetPos, perc);
             transform.rotation = Quaternion.Lerp(priorRot, targetRot, perc);
+            transform.GetChild(0).transform.localPosition = Vector3.Lerp(priorDis, targetDis, perc);
         } else
         {
             if (Input.GetKey(KeyCode.Mouse1))
@@ -136,38 +146,47 @@ public class Gardei_CamPan : MonoBehaviour {
             case 1:
                 targetPos = camPos1.gameObject.transform.position;
                 targetRot = camPos1.gameObject.transform.rotation;
+                targetDis = camPos1.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 2:
                 targetPos = camPos2.gameObject.transform.position;
                 targetRot = camPos2.gameObject.transform.rotation;
+                targetDis = camPos2.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 3:
                 targetPos = camPos3.gameObject.transform.position;
                 targetRot = camPos3.gameObject.transform.rotation;
+                targetDis = camPos3.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 4:
                 targetPos = camPos4.gameObject.transform.position;
                 targetRot = camPos4.gameObject.transform.rotation;
+                targetDis = camPos4.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 5:
                 targetPos = camPos5.gameObject.transform.position;
                 targetRot = camPos5.gameObject.transform.rotation;
+                targetDis = camPos5.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 6:
                 targetPos = camPos6.gameObject.transform.position;
                 targetRot = camPos6.gameObject.transform.rotation;
+                targetDis = camPos6.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 7:
                 targetPos = camPos7.gameObject.transform.position;
                 targetRot = camPos7.gameObject.transform.rotation;
+                targetDis = camPos7.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 8: //SKYVIEW
                 targetPos = camPosSky.gameObject.transform.position;
                 targetRot = camPosSky.gameObject.transform.rotation;
+                targetDis = camPosSky.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
             case 9: //HMI
                 targetPos = camPosHMI.gameObject.transform.position;
                 targetRot = camPosHMI.gameObject.transform.rotation;
+                targetDis = camPosHMI.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
         }
         panCam();
@@ -179,6 +198,7 @@ public class Gardei_CamPan : MonoBehaviour {
     {
         priorPos = transform.position;
         priorRot = transform.rotation;
+        priorDis = transform.GetChild(0).transform.localPosition;
         currentLerpTime = 0f;
         
     }
