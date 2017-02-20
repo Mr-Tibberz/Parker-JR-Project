@@ -67,6 +67,10 @@ public class Gardei_CamPan : MonoBehaviour {
     /// Value between 0 and 1 will guide the camera through a transition to a new location.
     /// </summary>
     float currentLerpTime;
+    /// <summary>
+    /// Returns whether or not a transition is taking place.
+    /// </summary>
+    bool transitioning = false;
 
 	// Use this for initialization
     /// <summary>
@@ -101,13 +105,18 @@ public class Gardei_CamPan : MonoBehaviour {
         if (currentLerpTime > lerpTime)
             {
                 currentLerpTime = lerpTime;
+                transitioning = false;
             }
 
             float perc = currentLerpTime / lerpTime; //percent 0 - 1
             perc = perc*perc*perc * (perc * (6f*perc - 15f) + 10f); //ease in, ease out maths (Creates s curve on a graph)
 
+        if (transitioning)
+        {
             transform.position = Vector3.Lerp(priorPos, targetPos, perc);
             transform.rotation = Quaternion.Lerp(priorRot, targetRot, perc);
+        }
+            
 	}
     /// <summary>
     /// SetTarget: This function takes a target and will then immediately execute a camera transition as soon as it has been triggered.
@@ -115,6 +124,7 @@ public class Gardei_CamPan : MonoBehaviour {
     /// <param name="stationNum">integer that will tell the camera which preset position it needs to go to.</param>
     public void setTarget(int stationNum)
     {
+        transitioning = true;
         switch (stationNum)
         {
             case 1:
