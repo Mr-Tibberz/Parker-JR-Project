@@ -1,6 +1,12 @@
-<p text-align="center">
-<h1> Parker Pneumatics Visualizer </h1>
+<h1 align="center"> Parker Pneumatics Visualizer </h1>
+<p align="center">
+<a href="#introduction"><img src="https://img.shields.io/badge/Platform-Windows-brightgreen.svg?style=flat-square"/></a>
+<a href="#introduction"><img src="https://img.shields.io/badge/Engine-Unity-brightgreen.svg?style=flat-square"/></a>
+<a href="#introduction"><img src="https://img.shields.io/badge/Current%20Version-0.0.1-brightgreen.svg?style=flat-square"/></a>
+<a href="#introduction"><img src="https://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square"/></a>
 </p>
+</p>
+
 Current Version: 0.0.1
 
 ## Introduction
