@@ -1,4 +1,6 @@
-# Parker Pneumatics Visualizer
+<p text-align="center">
+<h1> Parker Pneumatics Visualizer </h1>
+</p>
 Current Version: 0.0.1
 
 ## Introduction
