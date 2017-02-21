@@ -10,10 +10,10 @@ The Parker Pneumatics Visualizer is a product being developed by students at Fer
 Unity, 3DS Max, Photoshop, 3D Coat, Quixel.
 
 #### Team
-|Role|Name|Contact|
+|Name|Role|Contact|
 |:---|:---|:---|
-|Kyle Ericson|Product Owner|kyle.ericson1@gmail.com|
+|Kyle Ericson|Product Owner|[Email](kyle.ericson1@gmail.com)|
 |Allen Gardei|Programmer||
-|Arturo Campos|Artist|ajflaco@gmail.com|
+|Arturo Campos|Artist|[Email](ajflaco@gmail.com)|
 |Charles Raymo|Artist||
 |Colin O'Dowd|Artist||
