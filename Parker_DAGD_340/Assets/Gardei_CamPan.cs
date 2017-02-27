@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 /// <summary>
 /// The CamPan (Camera Pan) Script Houses the code responsible for moving the camera between preset points.
 /// Point1: Prior Position
@@ -7,6 +8,8 @@ using System.Collections;
 /// </summary>
 public class Gardei_CamPan : MonoBehaviour {
 
+
+    public Dropdown dropdown;
     /// <summary>
     /// Target lerp position for station 1.
     /// </summary>
@@ -100,15 +103,43 @@ public class Gardei_CamPan : MonoBehaviour {
 	void Update () {
 
         //Testing for switching between stations.
-        if (Input.GetKeyDown(KeyCode.Keypad1)) setTarget(1);
-        if (Input.GetKeyDown(KeyCode.Keypad2)) setTarget(2);
-        if (Input.GetKeyDown(KeyCode.Keypad3)) setTarget(3);
-        if (Input.GetKeyDown(KeyCode.Keypad4)) setTarget(4);
-        if (Input.GetKeyDown(KeyCode.Keypad5)) setTarget(5);
-        if (Input.GetKeyDown(KeyCode.Keypad6)) setTarget(6);
-        if (Input.GetKeyDown(KeyCode.Keypad7)) setTarget(7);
-        if (Input.GetKeyDown(KeyCode.Keypad8)) setTarget(8);
-        if (Input.GetKeyDown(KeyCode.Keypad9)) setTarget(9);
+        if (Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            dropdown.value = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            dropdown.value = 1;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            dropdown.value = 2;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            dropdown.value = 3;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            dropdown.value = 4;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad5)) 
+        {
+            dropdown.value = 5;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad6)) 
+        {
+            dropdown.value = 6;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad7)) 
+        {
+            dropdown.value = 7;
+        }
+        if (Input.GetKeyDown(KeyCode.Keypad8))
+        {
+            dropdown.value = 8;
+        }
+        
         //divide to slow down, or multiply to speed transition up
         currentLerpTime += Time.deltaTime / 2;
         if (currentLerpTime > lerpTime)
@@ -143,6 +174,11 @@ public class Gardei_CamPan : MonoBehaviour {
         transitioning = true;
         switch (stationNum)
         {
+            case 0: //SKYVIEW
+                targetPos = camPosSky.gameObject.transform.position;
+                targetRot = camPosSky.gameObject.transform.rotation;
+                targetDis = camPosSky.gameObject.transform.GetChild(0).transform.localPosition;
+                break;
             case 1:
                 targetPos = camPos1.gameObject.transform.position;
                 targetRot = camPos1.gameObject.transform.rotation;
@@ -178,12 +214,7 @@ public class Gardei_CamPan : MonoBehaviour {
                 targetRot = camPos7.gameObject.transform.rotation;
                 targetDis = camPos7.gameObject.transform.GetChild(0).transform.localPosition;
                 break;
-            case 8: //SKYVIEW
-                targetPos = camPosSky.gameObject.transform.position;
-                targetRot = camPosSky.gameObject.transform.rotation;
-                targetDis = camPosSky.gameObject.transform.GetChild(0).transform.localPosition;
-                break;
-            case 9: //HMI
+            case 8: //HMI
                 targetPos = camPosHMI.gameObject.transform.position;
                 targetRot = camPosHMI.gameObject.transform.rotation;
                 targetDis = camPosHMI.gameObject.transform.GetChild(0).transform.localPosition;
@@ -202,5 +233,16 @@ public class Gardei_CamPan : MonoBehaviour {
         currentLerpTime = 0f;
         
     }
-
+    public void useDropDown()
+    {
+        setTarget(dropdown.value);
+    }
+    public void clickSky()
+    {
+        dropdown.value = 0;
+    }
+    public void clickHMI()
+    {
+        dropdown.value = 8;
+    }
 }
