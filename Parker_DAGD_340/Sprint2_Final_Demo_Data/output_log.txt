@@ -1,0 +1,59 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K4000 (ID=0x11fa)
+    Vendor:   NVIDIA
+    VRAM:     3039 MB
+    Driver:   21.21.13.7295
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\gardeia\Parker-JR-Project\Parker_DAGD_340\Sprint2_Final_Demo_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'MainCamTarget') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 2.840108 ms
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 2304 -> priority: 1 
+  Thread -> id: 358c -> priority: 1 
+  Thread -> id: 4638 -> priority: 1 
+animation starting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+returning to idle 33
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+animation starting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+returning to idle 33
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+animation starting
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+returning to idle 33
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

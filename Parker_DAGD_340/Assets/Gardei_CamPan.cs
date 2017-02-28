@@ -160,7 +160,7 @@ public class Gardei_CamPan : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.Mouse1))
             {
-                transform.eulerAngles += new Vector3(0, Input.GetAxis("Mouse X"));
+                transform.eulerAngles += new Vector3(0, Input.GetAxis("Mouse X") * 3);
             }
         }
             
