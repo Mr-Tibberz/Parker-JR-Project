@@ -245,4 +245,15 @@ public class Gardei_CamPan : MonoBehaviour {
     {
         dropdown.value = 8;
     }
+
+    public void nextStation()
+    {
+        if (dropdown.value == 7) dropdown.value = 1;
+        else dropdown.value++;
+    }
+    public void prevStation()
+    {
+        if (dropdown.value == 1) dropdown.value = 7;
+        else dropdown.value--;
+    }
 }
