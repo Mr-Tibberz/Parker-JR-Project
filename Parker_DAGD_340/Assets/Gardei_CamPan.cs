@@ -82,19 +82,30 @@ public class Gardei_CamPan : MonoBehaviour {
     /// Returns whether or not a transition is taking place.
     /// </summary>
     bool transitioning = false;
+    /// <summary>
+    /// Stores Forward button for access within script.
+    /// </summary>
+    public GameObject forwardBttn;
+    /// <summary>
+    /// Stores Backward button for access within script.
+    /// </summary>
+    public GameObject backBttn;
 
-	// Use this for initialization
+    // Use this for initialization
     /// <summary>
     /// When software starts, will set both prior and target to the same spot.
     /// </summary>
-	void Start () {
+    void Start () {
         priorPos = transform.position;
         priorRot = transform.rotation;
         priorDis = transform.GetChild(0).transform.localPosition;
         targetPos = transform.position;
         targetRot = transform.rotation;
         targetDis = transform.GetChild(0).transform.localPosition;
-	}
+
+        forwardBttn.SetActive(false);
+        backBttn.SetActive(false);
+    }
 	
 	// Update is called once per frame
     /// <summary>
@@ -171,6 +182,18 @@ public class Gardei_CamPan : MonoBehaviour {
     /// <param name="stationNum">integer that will tell the camera which preset position it needs to go to.</param>
     public void setTarget(int stationNum)
     {
+        if (stationNum == 0 || stationNum == 8)
+        {
+            //bttns vis false
+            forwardBttn.SetActive(false);
+            backBttn.SetActive(false);
+        }
+        else
+        {
+            //bttns vis true
+            forwardBttn.SetActive(true);
+            backBttn.SetActive(true);
+        }
         transitioning = true;
         switch (stationNum)
         {
