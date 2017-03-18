@@ -14,6 +14,8 @@ The Parker Pneumatics Visualizer is a product being developed by students at Fer
 ### Usage
 To access the application go [here](https://kyle-ericson.github.io/ParkerPneumaticVisualizer/) using a compatible browser.
 
+### API
+[Link](https://kyle-ericson.github.io/ParkerAPI/) to the API for this project.
 ### Team
 |Nick Pattison|Kyle Ericson|Allen Gardei|Arturo Campos|Colin O'Dowd|Charles Raymo|
 |:---:|:---:|:---|:---:|:---:|:---:|
