@@ -8,13 +8,13 @@
   </a>
 </p>
 
-## Introduction
+### Introduction
 The Parker Pneumatics Visualizer is a product being developed by students at Ferris State University for Parker Hannifin Pneumatics Division. The goal of this project is to develop and interactive environment in which to showcase Parker Pneumatics procducts in realtime.
 
-## Usage
+### Usage
 To access the application go [here](https://kyle-ericson.github.io/ParkerPneumaticVisualizer/) using a compatible browser.
 
-## Team
+### Team
 |Nick Pattison|Kyle Ericson|Allen Gardei|Arturo Campos|Colin O'Dowd|Charles Raymo|
 |:---:|:---:|:---|:---:|:---:|:---:|
 |Instructor|Product Owner|Programmer|Artist|Artist|Artist|
