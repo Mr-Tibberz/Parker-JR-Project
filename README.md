@@ -15,4 +15,4 @@ The Parker Pneumatics Visualizer is a product being developed by students at Fer
 |Nick Pattison|Kyle Ericson|Allen Gardei|Arturo Campos|Colin O'Dowd|Charles Raymo|
 |:---:|:---:|:---|:---:|:---:|:---:|
 |Instructor|Product Owner|Programmer|Artist|Artist|Artist|
-||[Email](kyle.ericson1@gmail.com)||[Email](ajflaco@gmail.com)|||
+| |[Email](kyle.ericson1@gmail.com)| |[Email](ajflaco@gmail.com)| | |
