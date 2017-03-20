@@ -38,7 +38,8 @@ public class WorldController : MonoBehaviour {
         }
         if(playAnim)
         {
-            machine_1.speed *= 1.1f;
+            machine_1.speed += .00001f; //when 0, we just need to kick it a little bit to get it started.
+            machine_1.speed *= 1.2f;
             if (machine_1.speed >= 1) machine_1.speed = 1;
         }
     }
@@ -65,6 +66,11 @@ public class WorldController : MonoBehaviour {
 
 
         
+    }
+
+    public void exitApp()
+    {
+        Application.Quit();
     }
 
 }
