@@ -58,11 +58,13 @@ public class WorldController : MonoBehaviour {
         {
             machine_1.SetBool("IsIdle", false);            
             startAnimBttn.GetComponentInChildren<Text>().text = "ll";
-            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "ll";
+            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "STOP";
+            HMIStartAnimBttn.GetComponent<Image>().color = Color.red;
         } else
         {
             startAnimBttn.GetComponentInChildren<Text>().text = "►";
-            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "►";
+            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "START";
+            HMIStartAnimBttn.GetComponent<Image>().color = Color.green;
         }
 
         //print("animation starting");
