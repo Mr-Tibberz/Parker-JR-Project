@@ -14,6 +14,7 @@ public class WorldController : MonoBehaviour {
     /// Pass in a UI Button so we can modify it through script (aka switch to invisible on play)
     /// </summary>
     public GameObject startAnimBttn = null; //set in editor
+    public GameObject HMIStartAnimBttn = null;
 
     bool playAnim = false;
 	// Use this for initialization
@@ -57,9 +58,11 @@ public class WorldController : MonoBehaviour {
         {
             machine_1.SetBool("IsIdle", false);            
             startAnimBttn.GetComponentInChildren<Text>().text = "ll";
+            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "ll";
         } else
         {
             startAnimBttn.GetComponentInChildren<Text>().text = "►";
+            HMIStartAnimBttn.GetComponentInChildren<Text>().text = "►";
         }
 
         //print("animation starting");
