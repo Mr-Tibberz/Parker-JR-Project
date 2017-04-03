@@ -8,7 +8,13 @@ using UnityEngine.UI;
 /// </summary>
 public class Gardei_CamPan : MonoBehaviour {
 
-
+    /// <summary>
+    /// The main camera that is passed in from the editor.
+    /// </summary>
+    public Camera mainCam;
+    /// <summary>
+    /// UI Object passed in from Editor so it can be accessed in this script.
+    /// </summary>
     public Dropdown dropdown;
     /// <summary>
     /// Target lerp position for station 1.
@@ -90,6 +96,31 @@ public class Gardei_CamPan : MonoBehaviour {
     /// Stores Backward button for access within script.
     /// </summary>
     public GameObject backBttn;
+    /// <summary>
+    /// ccRight is the maximum a camera can scroll right.
+    /// </summary>
+    float ccRight;
+    /// <summary>
+    /// ccLeft is the maximum a camera can scroll left.
+    /// </summary>
+    float ccLeft;
+    /// <summary>
+    /// ccUp is the maximum a camera can pan up;
+    /// </summary>
+    float ccUp;
+    /// <summary>
+    /// ccDown is the maxium a camera can pan down.
+    /// </summary>
+    float ccDown;
+    /// <summary>
+    /// Fov is just a local copy of the main cameras fov.
+    /// </summary>
+    float fov;
+    /// <summary>
+    /// Used to check if we have exceeded the clamp values for a certain camera position. Updates when camera station is changed.
+    /// </summary>
+    Vector3 clamp;
+
 
     // Use this for initialization
     /// <summary>
@@ -102,6 +133,14 @@ public class Gardei_CamPan : MonoBehaviour {
         targetPos = transform.position;
         targetRot = transform.rotation;
         targetDis = transform.GetChild(0).transform.localPosition;
+
+        //easy unlimited rotation (not likely for user to reach this in signle session.
+        ccLeft = gameObject.transform.eulerAngles.y - 9999999;
+        ccRight = gameObject.transform.eulerAngles.y + 9999999;
+        ccUp = gameObject.transform.eulerAngles.x + 20;
+        ccDown = gameObject.transform.eulerAngles.x - 10;
+
+        fov = mainCam.fieldOfView;
 
         forwardBttn.SetActive(false);
         backBttn.SetActive(false);
@@ -164,6 +203,7 @@ public class Gardei_CamPan : MonoBehaviour {
 
         if (transitioning)
         {
+            fov = Mathf.Lerp(fov, 60, perc/15);
             transform.position = Vector3.Lerp(priorPos, targetPos, perc);
             transform.rotation = Quaternion.Lerp(priorRot, targetRot, perc);
             transform.GetChild(0).transform.localPosition = Vector3.Lerp(priorDis, targetDis, perc);
@@ -171,11 +211,26 @@ public class Gardei_CamPan : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.Mouse1))
             {
-                transform.eulerAngles += new Vector3(0, Input.GetAxis("Mouse X") * 3);
+
+                float mouseX = Input.GetAxis("Mouse X");
+                float mouseY = Input.GetAxis("Mouse Y");
+
+                transform.eulerAngles += new Vector3(0, mouseX);
+                transform.eulerAngles += new Vector3(mouseY, 0);
+
+                clamp.y = Mathf.Clamp(clamp.y + mouseX, ccLeft, ccRight);
+                clamp.x = Mathf.Clamp(clamp.x - mouseY, ccDown, ccUp);
+                transform.eulerAngles = clamp;
+
             }
-        }
             
-	}
+            fov -= Input.GetAxis("Mouse ScrollWheel") * 35;
+            fov = Mathf.Clamp(fov, 40, 70);
+            
+        }
+
+        mainCam.fieldOfView = fov;
+    }
     /// <summary>
     /// SetTarget: This function takes a target and will then immediately execute a camera transition as soon as it has been triggered.
     /// </summary>
@@ -201,46 +256,118 @@ public class Gardei_CamPan : MonoBehaviour {
                 targetPos = camPosSky.gameObject.transform.position;
                 targetRot = camPosSky.gameObject.transform.rotation;
                 targetDis = camPosSky.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight  = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 1:
                 targetPos = camPos1.gameObject.transform.position;
                 targetRot = camPos1.gameObject.transform.rotation;
                 targetDis = camPos1.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight  = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 2:
                 targetPos = camPos2.gameObject.transform.position;
                 targetRot = camPos2.gameObject.transform.rotation;
                 targetDis = camPos2.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 3:
                 targetPos = camPos3.gameObject.transform.position;
                 targetRot = camPos3.gameObject.transform.rotation;
                 targetDis = camPos3.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 4:
                 targetPos = camPos4.gameObject.transform.position;
                 targetRot = camPos4.gameObject.transform.rotation;
                 targetDis = camPos4.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 5:
                 targetPos = camPos5.gameObject.transform.position;
                 targetRot = camPos5.gameObject.transform.rotation;
                 targetDis = camPos5.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 6:
                 targetPos = camPos6.gameObject.transform.position;
                 targetRot = camPos6.gameObject.transform.rotation;
                 targetDis = camPos6.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 7:
                 targetPos = camPos7.gameObject.transform.position;
                 targetRot = camPos7.gameObject.transform.rotation;
                 targetDis = camPos7.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
             case 8: //HMI
                 targetPos = camPosHMI.gameObject.transform.position;
                 targetRot = camPosHMI.gameObject.transform.rotation;
                 targetDis = camPosHMI.gameObject.transform.GetChild(0).transform.localPosition;
+
+                ccLeft = targetRot.eulerAngles.y - 45;
+                ccRight = targetRot.eulerAngles.y + 45;
+                ccUp = targetRot.eulerAngles.x + 20;
+                ccDown = targetRot.eulerAngles.x - 10;
+                clamp.x = targetRot.eulerAngles.x;
+                clamp.y = targetRot.eulerAngles.y;
+                clamp.z = targetRot.eulerAngles.z;
                 break;
         }
         panCam();
@@ -256,25 +383,39 @@ public class Gardei_CamPan : MonoBehaviour {
         currentLerpTime = 0f;
         
     }
+    /// <summary>
+    /// UI Function that sets current station selection.
+    /// </summary>
     public void useDropDown()
     {
         setTarget(dropdown.value);
     }
+    /// <summary>
+    /// Function that sets current station to sky view. (convenience)
+    /// </summary>
     public void clickSky()
     {
         dropdown.value = 0;
     }
+    /// <summary>
+    /// Function that sets current station to HMI. (convenience)
+    /// </summary>
     public void clickHMI()
     {
         dropdown.value = 8;
     }
-
+    /// <summary>
+    /// Arrow button that progresses to next station in order of operation.
+    /// </summary>
     public void nextStation()
     {
         if (dropdown.value == 0 || dropdown.value == 8) return;
         else if (dropdown.value == 7) dropdown.value = 1;
         else dropdown.value++;
     }
+    /// <summary>
+    /// Arrow button that progresses to previous station in order of operation.
+    /// </summary>
     public void prevStation()
     {
         if (dropdown.value == 0 || dropdown.value == 8) return;
