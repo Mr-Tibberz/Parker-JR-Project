@@ -383,11 +383,16 @@ public class Gardei_CamPan : MonoBehaviour {
         currentLerpTime = 0f;
         
     }
+    public void changeDropDown(int ddv)
+    {
+        dropdown.value = ddv;
+    }
     /// <summary>
     /// UI Function that sets current station selection.
     /// </summary>
     public void useDropDown()
     {
+        
         setTarget(dropdown.value);
     }
     /// <summary>
