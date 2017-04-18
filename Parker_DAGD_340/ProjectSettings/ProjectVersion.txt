@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <<<<<<< ericson
 m_EditorVersion: 5.6.0f3
 =======
 m_EditorVersion: 5.5.0f3
 >>>>>>> FOLLOW MODE!
+=======
+m_EditorVersion: 5.5.0f3
+>>>>>>> Sprint4

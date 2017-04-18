@@ -1,4 +1,5 @@
 Base path: C:/Program Files/Unity/Editor/Data
+<<<<<<< HEAD
 <<<<<<< ericson
 Cmd: initializeCompiler
 Cmd: compileSnippet
@@ -64,3 +65,6 @@ Cmd: compileSnippet
 =======
 Cmd: getPlatforms
 >>>>>>> FOLLOW MODE!
+=======
+Cmd: getPlatforms
+>>>>>>> Sprint4
