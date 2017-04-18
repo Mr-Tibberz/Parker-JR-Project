@@ -12,7 +12,20 @@ public class PartLoader : MonoBehaviour {
 		foreach(Part part in partDB.parts)
 		{
 			print(part.name);
+            print(part.partnumber);
+            print(part.info);
 		}
 	}
+    void FindPart(int number) {
+        foreach (Part part in partDB.parts)
+        {
+            /*
+            if (part.partnumber == number)
+            {
+
+            }
+            */
+        }
+    }
 
 }

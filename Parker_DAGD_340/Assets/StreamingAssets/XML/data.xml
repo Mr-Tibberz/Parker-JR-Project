@@ -3,12 +3,17 @@
     <Parts>
       <Part>
         <Name>Cylinder</Name>
-        <PartNumber></PartNumber>
+        <PartNumber>1</PartNumber>
         <Info>Here is some information about this cylinder.</Info>
       </Part>
       <Part>
         <Name>Rodless Cylinder</Name>
-        <PartNumber></PartNumber>
+        <PartNumber>2</PartNumber>
+        <Info>Here is some information about this cylinder.</Info>
+      </Part>
+      <Part>
+        <Name>Another Cylinder</Name>
+        <PartNumber>3</PartNumber>
         <Info>Here is some information about this cylinder.</Info>
       </Part>
     </Parts>

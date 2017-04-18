@@ -10,7 +10,7 @@ public class Part {
     public string name;
 
     [XmlElement("PartNumber")]
-    public string number;
+    public string partnumber;
 
     [XmlElement("Info")]
     public string info;
