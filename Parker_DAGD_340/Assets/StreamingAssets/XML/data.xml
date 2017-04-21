@@ -2,19 +2,53 @@
 <PartCollection>
     <Parts>
       <Part>
-        <Name>Cylinder</Name>
-        <PartNumber>1</PartNumber>
-        <Info>Here is some information about this cylinder.</Info>
-      </Part>
-      <Part>
         <Name>Rodless Cylinder</Name>
-        <PartNumber>2</PartNumber>
-        <Info>Here is some information about this cylinder.</Info>
+        <PartNumber>OSP-P 32</PartNumber>
+        <Info>
+        The OSP-P rodless actuator in bore sizes Ø10, Ø16, Ø25, Ø32, Ø40, Ø50, Ø63 and Ø80mm is a combined linear actuator, guidance and control package with additional functions designed into modular system components. 
+        Mounting rails on 3 sides of the cylinder enable modular components such as linear guides, brakes, valves, magnetic switches etc. 
+        to be fitted to the cylinder itself solving many installation problems, especially where space is limited and forms an ideal basis for additional customer specific functions providing total installation flexibility. 
+        Optimised cylinder profile for maximum stiffness and minimum weight, corrosion resistant steel outer sealing band, robust wiper system on the carrier for use in aggressive environments and a proven corrosion resistant steel inner band for optimum sealing. 
+        OSP-P is available as standard temperature -10°C to +80°C with high and low temperature options and can be supplied with optional active or passive dynamic braking. 
+        Long lifetime and service intervals up to 8,000km provide a unit ideally suited for point-to point operations, reciprocating movements and simple traverse / transfer applications.
+        </Info>
       </Part>
       <Part>
-        <Name>Another Cylinder</Name>
-        <PartNumber>3</PartNumber>
-        <Info>Here is some information about this cylinder.</Info>
+        <Name>Pneumatic Cylinder</Name>
+        <PartNumber>4MA</PartNumber>
+        <Info>
+        The 4MA series cylinder is a ruggedly constructed, highly configurable, all purpose design. 
+        The aluminum body and machined aluminum end caps make the 4MA a light weight solution. 
+        With 8 bore sizes, 20 NFPA mounting styles, and a variety of other options the 4MA is easily adaptable to practically any application. 
+        Carboxilated nitrile seals, a urethane rod wiper, and piston wear band combine to offer low friction, leak free operation, and long service life. 
+        To minimize downtime when maintenance is required, the externally removeable bronze gland enables servicing of the cylinder without disassembly of the body. 
+        The 4MA series cylinder has a full range of features and options.
+        </Info>
+      </Part>
+      <Part>
+        <Name>Rotary Cylinder</Name>
+        <PartNumber>MP5RS</PartNumber>
+        <Info>
+        The P5RS is a rotary table actuated using a twin rack and pinion design. 
+        Stroke adjusters are standard and enable adjustment from 0 to 190 degrees of rotation. 
+        The center shaft is hollow to allow piping, or wiring, to pass through to mounted accessories. 
+        A magnetic piston is standard and shock absorbers are available.
+        </Info>
+      </Part>
+      <Part>
+        <Name>Guided Cylinder</Name>
+        <PartNumber>P5T</PartNumber>
+        <Info>
+        The P5RS is a rotary table actuated using a twin rack and pinion design. 
+        Stroke adjusters are standard and enable adjustment from 0 to 190 degrees of rotation. 
+        The center shaft is hollow to allow piping, or wiring, to pass through to mounted accessories. 
+        A magnetic piston is standard and shock absorbers are available.
+        </Info>
+      </Part>
+      <Part>
+        <Name></Name>
+        <PartNumber></PartNumber>
+        <Info></Info>
       </Part>
     </Parts>
 </PartCollection>

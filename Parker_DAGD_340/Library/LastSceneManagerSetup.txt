@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SCENES/ke_Testing.unity
+- path: Assets/SCENES/ke_main.unity
   isLoaded: 1
   isActive: 1
