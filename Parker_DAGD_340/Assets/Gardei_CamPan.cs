@@ -120,6 +120,10 @@ public class Gardei_CamPan : MonoBehaviour {
     /// Used to check if we have exceeded the clamp values for a certain camera position. Updates when camera station is changed.
     /// </summary>
     Vector3 clamp;
+    /// <summary>
+    /// Whether or not the user is focusing on a specific part
+    /// </summary>
+    bool focused = false;
 
 
     // Use this for initialization
@@ -235,13 +239,38 @@ public class Gardei_CamPan : MonoBehaviour {
     /// SetTarget: This function takes a target and will then immediately execute a camera transition as soon as it has been triggered.
     /// </summary>
     /// <param name="stationNum">integer that will tell the camera which preset position it needs to go to.</param>
-    public void setTarget(int stationNum)
+    /// 
+    public void setTarget(GameObject station) //used to zoom into specific parts
     {
+        focused = true;
+        backBttn.SetActive(true);
+        forwardBttn.SetActive(false);
+        targetPos = station.gameObject.transform.position;
+        targetRot = station.gameObject.transform.rotation;
+        targetRot.eulerAngles += new Vector3(20, 180, 0);
+        targetDis = new Vector3(0, 0, -1.2f);
+        
+
+        ccLeft = targetRot.eulerAngles.y - 45;
+        ccRight = targetRot.eulerAngles.y + 45;
+        ccUp = targetRot.eulerAngles.x + 20;
+        ccDown = targetRot.eulerAngles.x - 10;
+
+        clamp.x = targetRot.eulerAngles.x;
+        clamp.y = targetRot.eulerAngles.y;
+        clamp.z = targetRot.eulerAngles.z;
+        transitioning = true;
+        panCam();
+    }
+    public void setTarget(int stationNum) // used to zoom into larger, preset stations
+    {
+        focused = false;
         if (stationNum == 0 || stationNum == 8)
         {
             //bttns vis false
-            forwardBttn.SetActive(false);
             backBttn.SetActive(false);
+            forwardBttn.SetActive(false);
+            
         }
         else
         {
@@ -423,8 +452,15 @@ public class Gardei_CamPan : MonoBehaviour {
     /// </summary>
     public void prevStation()
     {
-        if (dropdown.value == 0 || dropdown.value == 8) return;
-        else if (dropdown.value == 1) dropdown.value = 7;
-        else dropdown.value--;
+        if (!focused)
+        {
+            if (dropdown.value == 0 || dropdown.value == 8) return;
+            else if (dropdown.value == 1) dropdown.value = 7;
+            else dropdown.value--;
+        }
+        else
+        {
+            setTarget(dropdown.value);
+        }
     }
 }

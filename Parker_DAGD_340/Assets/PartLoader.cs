@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class PartLoader : MonoBehaviour {
 
 	public const string path = "data";
@@ -19,12 +19,12 @@ public class PartLoader : MonoBehaviour {
     void FindPart(int number) {
         foreach (Part part in partDB.parts)
         {
-            /*
+            
             if (part.partnumber == number)
             {
 
             }
-            */
+            
         }
     }
 
@@ -44,7 +44,7 @@ public class PartLoader : MonoBehaviour {
 	}
 
 }
-
+*/
 public class PartLoader : MonoBehaviour {
 
 	public const string path = "data";
@@ -58,7 +58,7 @@ public class PartLoader : MonoBehaviour {
 		
 		foreach(Part part in partDB.parts)
 		{
-			if(part.number == partnum) toReturn = part;
+			if(part.partnumber == partnum) toReturn = part;
 		}
 		return toReturn;
 	}

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 
+/*
 public class HoverDetection : MonoBehaviour
 {
     public PartLoader partLoader;
@@ -54,7 +55,7 @@ public class HoverDetection : MonoBehaviour
         popupWindow.GetComponentInChildren<Text>().text = "";
     }
 }
-
+*/
 
 public class HoverDetection : MonoBehaviour
 {
@@ -63,6 +64,7 @@ public class HoverDetection : MonoBehaviour
     public Text infoText;
     public string partNumber;
     public GameObject logo;
+    public Gardei_CamPan camController;
 
     void Start()
     {
@@ -75,6 +77,11 @@ public class HoverDetection : MonoBehaviour
         Part part = partLoader.FindPart(partNumber);
         infoText.text = part.info;
     }
+    void OnMouseDown()
+    {
+        print("BOOM");
+        camController.setTarget(this.gameObject);
+    }    
     void OnMouseExit()
     {
         logo.SetActive(true);
