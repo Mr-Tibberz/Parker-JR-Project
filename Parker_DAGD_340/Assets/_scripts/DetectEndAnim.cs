@@ -10,6 +10,7 @@ public class DetectEndAnim : MonoBehaviour {
     /// A button passed in from the Unity Editor that you want to reappear when the animation has completed.
     /// </summary>
     public GameObject startAnimBttn = null; //set in editor
+    public GameObject hmiStartAnimBttn = null;
     public GameObject followBttn = null;
     /// <summary>
     /// UI Object passed in from Editor so it can be accessed in this script. This value is modified in this script for the follow mode.
@@ -24,6 +25,8 @@ public class DetectEndAnim : MonoBehaviour {
         GetComponent<Animator>().SetBool("IsIdle", true);
         startAnimBttn.GetComponentInChildren<Text>().text = "►";
         //startAnimBttn.SetActive(true);
+        hmiStartAnimBttn.GetComponent<Image>().color = Color.green;
+        hmiStartAnimBttn.GetComponentInChildren<Text>().text = "START";
         print("returning to idle 33");
         stationNum = 1;
         dropdown.value = 0;
