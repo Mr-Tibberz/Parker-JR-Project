@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Parker_DAGD_340.csproj", "{DBB97E50-C0BD-4B98-1201-81F0388E0F12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340.CSharp", "Parker_DAGD_340.CSharp.csproj", "{F2AB6B7B-58B0-080B-2B33-D1244DDA6D6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AB6B7B-58B0-080B-2B33-D1244DDA6D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AB6B7B-58B0-080B-2B33-D1244DDA6D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AB6B7B-58B0-080B-2B33-D1244DDA6D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AB6B7B-58B0-080B-2B33-D1244DDA6D6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,73 +3,43 @@ using System.Collections;
 using UnityEngine.UI;
 
 
-/*
 public class HoverDetection : MonoBehaviour
 {
+    /// <summary>
+    /// Object that contains information on the specific part based on a specified part number.
+    /// </summary>
     public PartLoader partLoader;
+    /// <summary>
+    /// UI Object that contains the pop up infographic window that appears when you mouse over a game object. This is used in this script to make the infographic visible and invisible.
+    /// </summary>
     public GameObject popupWindow;
-    public Gardei_CamPan cameraController;
-
-    public string partName = "";
-
-    void Start()
-    {
-        popupWindow.SetActive(false);
-    }
-    void OnMouseOver()
-    {
-        popupWindow.SetActive(true);
-        //popupWindow.GetComponentInChildren<Text>().text = "Hi there";
-    }
-    void OnMouseExit()
-    {
-        popupWindow.SetActive(false);
-        //popupWindow.GetComponentInChildren<Text>().text = "";
-    }
-    void OnMouseDown()
-    {
-        print("click");
-    }
-}
-
-
-public class HoverDetection : MonoBehaviour
-{
-    public PartLoader partLoader;
-    public GameObject popupWindow;
-
-    public string partName = "";
-
-    void Start()
-    {
-        popupWindow.SetActive(false);
-    }
-    void OnMouseOver()
-    {
-        popupWindow.SetActive(true);
-        popupWindow.GetComponentInChildren<Text>().text = "Hi there";
-    }
-    void OnMouseExit()
-    {
-        popupWindow.SetActive(false);
-        popupWindow.GetComponentInChildren<Text>().text = "";
-    }
-}
-*/
-
-public class HoverDetection : MonoBehaviour
-{
-    public PartLoader partLoader;
-    public GameObject popupWindow;
+    /// <summary>
+    /// Text object that will contain the text displayed in the pop up infographic.
+    /// </summary>
     public Text infoText;
+    /// <summary>
+    /// A string set in the editor that will allow the application to pull part information from a spreadsheet.
+    /// </summary>
     public string partNumber;
+    /// <summary>
+    /// This is a copy of the company logo. It is the standard logo that appears when the pop up infographic is not currently displayed.
+    /// </summary>
     public GameObject logo;
-    public Gardei_CamPan camController;
+    /// <summary>
+    /// This is a reference to the camera controller so that we can tell the camera it needs to focus on the station this script is attached to.
+    /// </summary>
+    public CamPan camController;
 
+    /// <summary>
+    /// On script start, the pop up window will not be visible.
+    /// </summary>
     void Start()
     {
         popupWindow.SetActive(false);
     }
+    /// <summary>
+    /// When the mouse is over the station this script is attached to, the pop up window will appear and the standard logo will dissapear.
+    /// </summary>
     void OnMouseOver()
     {
         logo.SetActive(false);
@@ -77,11 +47,16 @@ public class HoverDetection : MonoBehaviour
         Part part = partLoader.FindPart(partNumber);
         infoText.text = part.info;
     }
+    /// <summary>
+    /// When the mouse is clicked while over this game object, the camera will look at the object based on this objects pivot point orientation.
+    /// </summary>
     void OnMouseDown()
     {
-        print("BOOM");
         camController.setTarget(this.gameObject);
-    }    
+    }   
+    /// <summary>
+    /// When the mouse is no longer over this object, the pop up window will dissapear and the standard logo will reapear.
+    /// </summary>   
     void OnMouseExit()
     {
         logo.SetActive(true);
