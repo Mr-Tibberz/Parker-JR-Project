@@ -1,7 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Parker_DAGD_340.csproj", "{DBB97E50-C0BD-4B98-1201-81F0388E0F12}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Assembly-CSharp-firstpass.csproj", "{009EEF5F-5FB2-53C8-567E-53F1120581A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Assembly-CSharp.csproj", "{3D14DCD0-D6EB-BEB3-43AD-5FD7DF203BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Assembly-CSharp-Editor-firstpass.csproj", "{29BE6287-C199-7E1E-0A06-D9C315FF5B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parker_DAGD_340", "Assembly-CSharp-Editor.csproj", "{28611FDD-7E77-07FA-ECF4-A3291BB2D45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBB97E50-C0BD-4B98-1201-81F0388E0F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009EEF5F-5FB2-53C8-567E-53F1120581A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009EEF5F-5FB2-53C8-567E-53F1120581A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009EEF5F-5FB2-53C8-567E-53F1120581A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009EEF5F-5FB2-53C8-567E-53F1120581A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D14DCD0-D6EB-BEB3-43AD-5FD7DF203BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D14DCD0-D6EB-BEB3-43AD-5FD7DF203BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D14DCD0-D6EB-BEB3-43AD-5FD7DF203BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D14DCD0-D6EB-BEB3-43AD-5FD7DF203BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BE6287-C199-7E1E-0A06-D9C315FF5B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BE6287-C199-7E1E-0A06-D9C315FF5B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BE6287-C199-7E1E-0A06-D9C315FF5B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BE6287-C199-7E1E-0A06-D9C315FF5B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28611FDD-7E77-07FA-ECF4-A3291BB2D45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28611FDD-7E77-07FA-ECF4-A3291BB2D45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28611FDD-7E77-07FA-ECF4-A3291BB2D45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28611FDD-7E77-07FA-ECF4-A3291BB2D45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

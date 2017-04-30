@@ -6,11 +6,9 @@ using System.Xml.Serialization;
 
 public class Part {
 
-	[XmlElement("Name")]
-    public string name;
 
     [XmlElement("PartNumber")]
-    public string partnumber;
+    public string number;
 
     [XmlElement("Info")]
     public string info;

@@ -40,7 +40,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!65 &65745921658319594
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -67,6 +67,8 @@ MonoBehaviour:
   partLoader: {fileID: 0}
   popupWindow: {fileID: 0}
   infoText: {fileID: 0}
+  nameText: {fileID: 0}
+  partText: {fileID: 0}
   partNumber: 4MA
   logo: {fileID: 0}
   camController: {fileID: 0}
