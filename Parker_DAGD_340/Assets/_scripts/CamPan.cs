@@ -236,10 +236,9 @@ public class CamPan : MonoBehaviour {
         mainCam.fieldOfView = fov;
     }
     /// <summary>
-    /// SetTarget: This function takes a target and will then immediately execute a camera transition as soon as it has been triggered.
+    /// SetTarget operand 1, when fired will cause the camera to transition its full orientation in the game world to look at the target passed in. This will move the camera based on the targets pivot orientation, it will move in front of the pivot and look back at the object.
     /// </summary>
-    /// <param name="stationNum">integer that will tell the camera which preset position it needs to go to.</param>
-    /// 
+    /// <param name="station">Anygame object you want the camera to look at.</param>
     public void setTarget(GameObject station) //used to zoom into specific parts
     {
         focused = true;
@@ -262,6 +261,10 @@ public class CamPan : MonoBehaviour {
         transitioning = true;
         panCam();
     }
+    /// <summary>
+    /// SetTarget operand 2, when fired will cause the camera to transition its full orientation in the game world to look at the target passed in.
+    /// </summary>
+    /// <param name="stationNum">An integer that represents a specific major station with preset manual corrdinates.</param>
     public void setTarget(int stationNum) // used to zoom into larger, preset stations
     {
         focused = false;

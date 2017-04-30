@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 /// <summary>
-/// The Master Class. Current Functionallity allows a UI Button to start the main animation. This will ultimately turn into a Animation Controller script to play various individual animations.
+/// The Master Class. Handles any and all basic functions that pertain to the game world.
 /// </summary>
 public class WorldController : MonoBehaviour {
     /// <summary>
